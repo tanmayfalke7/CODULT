@@ -52,7 +52,9 @@ const api = axios.create({
 })
 
 api.interceptors.request.use((config) => {
-  const token = localStorage.getItem('career_token')
+  const token = config.url?.startsWith('/admin')
+    ? localStorage.getItem('career_admin_token')
+    : localStorage.getItem('career_token')
 
   if (token) {
     config.headers.Authorization = `Bearer ${token}`
@@ -63,6 +65,7 @@ api.interceptors.request.use((config) => {
 
 const useAppStore = create((set) => ({
   token: localStorage.getItem('career_token') || '',
+  adminToken: localStorage.getItem('career_admin_token') || '',
   user: JSON.parse(localStorage.getItem('career_user') || 'null'),
   admin: JSON.parse(localStorage.getItem('career_admin') || 'null'),
   studentMode: localStorage.getItem('career_student_mode') === 'true',
@@ -71,24 +74,27 @@ const useAppStore = create((set) => ({
     localStorage.setItem('career_token', token)
     localStorage.setItem('career_user', JSON.stringify(user))
     localStorage.removeItem('career_admin')
+    localStorage.removeItem('career_admin_token')
     localStorage.removeItem('career_student_mode')
-    set({ token, user, admin: null, studentMode: false })
+    set({ token, adminToken: '', user, admin: null, studentMode: false })
   },
-  setAdminSession: (admin) => {
+  setAdminSession: ({ token, admin }) => {
     localStorage.setItem('career_admin', JSON.stringify(admin))
+    localStorage.setItem('career_admin_token', token)
     localStorage.removeItem('career_token')
     localStorage.removeItem('career_user')
     localStorage.removeItem('career_upload_result')
     localStorage.removeItem('career_student_mode')
-    set({ admin, token: '', user: null, studentMode: false, uploadResult: null })
+    set({ admin, adminToken: token, token: '', user: null, studentMode: false, uploadResult: null })
   },
   setStudentMode: () => {
     localStorage.setItem('career_student_mode', 'true')
     localStorage.removeItem('career_token')
     localStorage.removeItem('career_user')
     localStorage.removeItem('career_admin')
+    localStorage.removeItem('career_admin_token')
     localStorage.removeItem('career_upload_result')
-    set({ studentMode: true, token: '', user: null, admin: null, uploadResult: null })
+    set({ studentMode: true, token: '', adminToken: '', user: null, admin: null, uploadResult: null })
   },
   setUploadResult: (uploadResult) => {
     localStorage.setItem('career_upload_result', JSON.stringify(uploadResult))
@@ -99,8 +105,9 @@ const useAppStore = create((set) => ({
     localStorage.removeItem('career_user')
     localStorage.removeItem('career_upload_result')
     localStorage.removeItem('career_admin')
+    localStorage.removeItem('career_admin_token')
     localStorage.removeItem('career_student_mode')
-    set({ token: '', user: null, admin: null, studentMode: false, uploadResult: null })
+    set({ token: '', adminToken: '', user: null, admin: null, studentMode: false, uploadResult: null })
   },
 }))
 
@@ -347,7 +354,7 @@ function Pill({ children, tone = 'olive' }) {
   }
 
   return (
-    <span className={classNames('rounded-full px-3 py-1 text-xs font-semibold', tones[tone])}>
+    <span className={classNames('rounded-md px-3 py-1 text-xs font-semibold', tones[tone])}>
       {children}
     </span>
   )
@@ -361,7 +368,7 @@ function StatCard({ icon: Icon, label, value, hint, tone = 'olive' }) {
   }
 
   return (
-    <div className="metric-card rounded-lg p-5">
+    <div className="metric-card rounded-md p-5">
       <div className="flex items-start justify-between gap-4">
         <div>
           <p className="text-sm font-medium text-[#69725f]">{label}</p>
@@ -413,7 +420,7 @@ function Header({ activePage, setActivePage }) {
             <BrainCircuit size={22} />
           </span>
           <span className="text-left">
-            <span className="block text-base font-bold text-[#17201a]">CareerPilot AI</span>
+            <span className="block text-base font-bold text-[#17201a]">CareerPilot</span>
             <span className="block text-xs font-medium text-[#6d7664]">Resume to roadmap</span>
           </span>
         </button>
@@ -495,7 +502,7 @@ function LandingPage({ setActivePage }) {
     ['Resume intelligence', 'Extracts skills, education, interests, and certifications from uploaded resumes.', FileUp],
     ['Career matching', 'Compares your profile against ML career embeddings and ranks best-fit roles.', Target],
     ['Roadmap builder', 'Turns the top recommendation into a step-by-step learning path.', Route],
-    ['Market trends', 'Surfaces demand, growth, and skill direction for judging-ready analytics.', TrendingUp],
+    ['Market trends', 'Surfaces demand, growth, and skill direction for better career decisions.', TrendingUp],
   ]
 
   return (
@@ -503,12 +510,7 @@ function LandingPage({ setActivePage }) {
       <section className="soft-grid">
         <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:py-16">
           <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }}>
-            <div className="flex flex-wrap gap-2">
-              <Pill tone="olive">AI career recommender</Pill>
-              <Pill tone="sky">JWT dashboard</Pill>
-              <Pill tone="yellow">Hackathon ready</Pill>
-            </div>
-            <h1 className="mt-6 max-w-3xl text-4xl font-bold leading-tight text-[#17201a] sm:text-5xl lg:text-6xl">
+            <h1 className="max-w-3xl text-4xl font-bold leading-tight text-[#17201a] sm:text-5xl lg:text-6xl">
               Convert one resume into a clear career path.
             </h1>
             <p className="mt-5 max-w-2xl text-lg leading-8 text-[#5f6958]">
@@ -528,12 +530,12 @@ function LandingPage({ setActivePage }) {
           </motion.div>
 
           <motion.div
-            className="glass-panel rounded-lg p-5"
+            className="glass-panel rounded-md p-5"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.12 }}
           >
-            <div className="rounded-lg bg-[#17201a] p-5 text-white">
+            <div className="rounded-md bg-[#17201a] p-5 text-white">
               <div className="flex items-center justify-between">
                 <div>
                   <p className="text-sm text-[#cfe4bd]">Live career signal</p>
@@ -570,7 +572,7 @@ function LandingPage({ setActivePage }) {
       <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
         <div className="mb-6 grid gap-4 md:grid-cols-2">
           <button
-            className="metric-card rounded-lg p-5 text-left transition hover:-translate-y-1 hover:border-[#8ecae6]"
+            className="metric-card rounded-md p-5 text-left transition hover:-translate-y-1 hover:border-[#8ecae6]"
             onClick={() => setActivePage('auth')}
           >
             <Pill tone="olive">Student or professional</Pill>
@@ -578,7 +580,7 @@ function LandingPage({ setActivePage }) {
             <p className="mt-2 text-sm leading-6 text-[#69725f]">Create a user account for resume analysis, dashboard, roadmap, or school career quiz.</p>
           </button>
           <button
-            className="metric-card rounded-lg p-5 text-left transition hover:-translate-y-1 hover:border-[#f4d35e]"
+            className="metric-card rounded-md p-5 text-left transition hover:-translate-y-1 hover:border-[#f4d35e]"
             onClick={() => setActivePage('admin-login')}
           >
             <Pill tone="yellow">Admin access</Pill>
@@ -588,7 +590,7 @@ function LandingPage({ setActivePage }) {
         </div>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           {features.map(([title, copy, Icon]) => (
-            <div key={title} className="metric-card rounded-lg p-5">
+            <div key={title} className="metric-card rounded-md p-5">
               <Icon className="text-[#6f7f45]" size={24} />
               <h3 className="mt-4 text-lg font-bold text-[#17201a]">{title}</h3>
               <p className="mt-2 text-sm leading-6 text-[#69725f]">{copy}</p>
@@ -602,12 +604,15 @@ function LandingPage({ setActivePage }) {
 
 function AuthPage({ setActivePage }) {
   const { setSession } = useAppStore()
-  const [mode, setMode] = useState('login')
+  const initialResetToken = new URLSearchParams(window.location.search).get('reset_token') || ''
+  const [mode, setMode] = useState(initialResetToken ? 'reset' : 'login')
   const [loading, setLoading] = useState(false)
   const [message, setMessage] = useState('')
   const [form, setForm] = useState({
     email: '',
     password: '',
+    reset_token: initialResetToken,
+    new_password: '',
     first_name: '',
     last_name: '',
     profile_type: 'engineering_student',
@@ -619,8 +624,31 @@ function AuthPage({ setActivePage }) {
     setMessage('')
 
     if (mode === 'forgot') {
-      setMessage('Password reset flow is ready for backend email integration.')
-      setLoading(false)
+      try {
+        const { data } = await api.post('/auth/forgot-password', { email: form.email })
+        setMessage(data.message)
+      } catch (error) {
+        setMessage(error.response?.data?.detail || 'Could not send reset email.')
+      } finally {
+        setLoading(false)
+      }
+      return
+    }
+
+    if (mode === 'reset') {
+      try {
+        const { data } = await api.post('/auth/reset-password', {
+          token: form.reset_token,
+          new_password: form.new_password,
+        })
+        setMessage(data.message)
+        setMode('login')
+        window.history.replaceState({}, '', window.location.pathname)
+      } catch (error) {
+        setMessage(error.response?.data?.detail || 'Could not reset password.')
+      } finally {
+        setLoading(false)
+      }
       return
     }
 
@@ -647,36 +675,31 @@ function AuthPage({ setActivePage }) {
   return (
     <main className="mx-auto grid min-h-[calc(100vh-80px)] max-w-6xl items-center gap-8 px-4 py-10 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
       <section>
-        <Pill tone="sky">Protected APIs</Pill>
-        <h1 className="mt-5 text-4xl font-bold leading-tight text-[#17201a]">Secure career workspace.</h1>
+        <h1 className="text-4xl font-bold leading-tight text-[#17201a]">Secure career workspace.</h1>
         <p className="mt-4 text-lg leading-8 text-[#5f6958]">
-          Create a JWT-backed account, upload resumes, and keep your roadmap progress tied to your profile.
+          Create an account, upload resumes, and keep your roadmap progress tied to your profile.
         </p>
         <div className="mt-8 grid gap-3">
-          {['JWT access tokens', 'PBKDF2 password hashing', 'Protected dashboard routes'].map((item) => (
-            <div key={item} className="flex items-center gap-3 rounded-lg bg-white p-4 text-sm font-semibold text-[#536431]">
+          {['Private profile', 'Secure password storage', 'Protected dashboard'].map((item) => (
+            <div key={item} className="flex items-center gap-3 rounded-md bg-white p-4 text-sm font-semibold text-[#536431]">
               <Check size={18} /> {item}
             </div>
           ))}
         </div>
       </section>
 
-      <form className="glass-panel rounded-lg p-6" onSubmit={submit}>
+      <form className="glass-panel rounded-md p-6" onSubmit={submit}>
         <div className="flex rounded-md bg-[#eef4e8] p-1">
-          <button
-            type="button"
-            className={classNames('flex-1 rounded-md px-3 py-2 text-sm font-bold', mode === 'login' && 'bg-white text-[#536431] shadow-sm')}
-            onClick={() => setMode('login')}
-          >
-            Login
-          </button>
-          <button
-            type="button"
-            className={classNames('flex-1 rounded-md px-3 py-2 text-sm font-bold', mode === 'register' && 'bg-white text-[#536431] shadow-sm')}
-            onClick={() => setMode('register')}
-          >
-            Register
-          </button>
+          {['login', 'register', 'reset'].map((item) => (
+            <button
+              key={item}
+              type="button"
+              className={classNames('flex-1 rounded-md px-3 py-2 text-sm font-bold capitalize', mode === item && 'bg-white text-[#536431] shadow-sm')}
+              onClick={() => setMode(item)}
+            >
+              {item}
+            </button>
+          ))}
         </div>
 
         <div className="mt-6 grid gap-4">
@@ -686,8 +709,16 @@ function AuthPage({ setActivePage }) {
               <Input label="Last name" value={form.last_name} onChange={(value) => setForm({ ...form, last_name: value })} />
             </div>
           )}
-          <Input label="Email" type="email" value={form.email} onChange={(value) => setForm({ ...form, email: value })} required />
-          {mode !== 'forgot' && (
+          {mode !== 'reset' && (
+            <Input label="Email" type="email" value={form.email} onChange={(value) => setForm({ ...form, email: value })} required />
+          )}
+          {mode === 'reset' && (
+            <>
+              <Input label="Reset token" value={form.reset_token} onChange={(value) => setForm({ ...form, reset_token: value })} required />
+              <Input label="New password" type="password" value={form.new_password} onChange={(value) => setForm({ ...form, new_password: value })} required />
+            </>
+          )}
+          {mode !== 'forgot' && mode !== 'reset' && (
             <Input label="Password" type="password" value={form.password} onChange={(value) => setForm({ ...form, password: value })} required />
           )}
           {mode === 'register' && (
@@ -707,7 +738,7 @@ function AuthPage({ setActivePage }) {
             </label>
           )}
           <Button disabled={loading} className="w-full">
-            <ShieldCheck size={18} /> {loading ? 'Please wait...' : mode === 'login' ? 'Login' : mode === 'forgot' ? 'Send reset link' : 'Create account'}
+            <ShieldCheck size={18} /> {loading ? 'Please wait...' : mode === 'login' ? 'Login' : mode === 'forgot' ? 'Send reset link' : mode === 'reset' ? 'Update password' : 'Create account'}
           </Button>
           <button
             type="button"
@@ -729,7 +760,7 @@ function RoleSelectPage({ setActivePage }) {
   return (
     <main className="mx-auto grid min-h-[calc(100vh-80px)] max-w-7xl items-center gap-6 px-4 py-10 sm:px-6 lg:grid-cols-3 lg:px-8">
       <button
-        className="glass-panel rounded-lg p-7 text-left transition hover:-translate-y-1 hover:border-[#8ecae6]"
+        className="glass-panel rounded-md p-7 text-left transition hover:-translate-y-1 hover:border-[#8ecae6]"
         onClick={() => {
           setStudentMode()
           setActivePage('student-dashboard')
@@ -746,7 +777,7 @@ function RoleSelectPage({ setActivePage }) {
       </button>
 
       <button
-        className="glass-panel rounded-lg p-7 text-left transition hover:-translate-y-1 hover:border-[#8ecae6]"
+        className="glass-panel rounded-md p-7 text-left transition hover:-translate-y-1 hover:border-[#8ecae6]"
         onClick={() => setActivePage('auth')}
       >
         <Pill tone="olive">User login</Pill>
@@ -760,7 +791,7 @@ function RoleSelectPage({ setActivePage }) {
       </button>
 
       <button
-        className="glass-panel rounded-lg p-7 text-left transition hover:-translate-y-1 hover:border-[#f4d35e]"
+        className="glass-panel rounded-md p-7 text-left transition hover:-translate-y-1 hover:border-[#f4d35e]"
         onClick={() => setActivePage('admin-login')}
       >
         <Pill tone="yellow">Admin login</Pill>
@@ -784,36 +815,33 @@ function AdminLoginPage({ setActivePage }) {
   })
   const [message, setMessage] = useState('')
 
-  const submit = (event) => {
+  const submit = async (event) => {
     event.preventDefault()
     setMessage('')
 
-    if (form.username === 'admin' && form.password === 'admin123') {
+    try {
+      const { data } = await api.post('/admin/login', form)
       setAdminSession({
-        username: 'admin',
-        role: 'admin',
+        token: data.access_token,
+        admin: data.admin,
       })
       setActivePage('admin')
       return
+    } catch (error) {
+      setMessage(error.response?.data?.detail || 'Invalid admin username or password.')
     }
-
-    setMessage('Invalid admin username or password.')
   }
 
   return (
     <main className="mx-auto grid min-h-[calc(100vh-80px)] max-w-6xl items-center gap-8 px-4 py-10 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
       <section>
-        <Pill tone="yellow">Separate admin access</Pill>
-        <h1 className="mt-5 text-4xl font-bold leading-tight text-[#17201a]">Admin login</h1>
+        <h1 className="text-4xl font-bold leading-tight text-[#17201a]">Admin login</h1>
         <p className="mt-4 text-lg leading-8 text-[#5f6958]">
-          This panel is separate from user authentication and uses only username and password.
+          Review users, resumes, recommendations, roadmaps, skills, and recent activity from one workspace.
         </p>
-        <div className="mt-8 rounded-lg bg-[#fff6c8] p-4 text-sm font-semibold text-[#7a6414]">
-          Demo credentials: username admin, password admin123
-        </div>
       </section>
 
-      <form className="glass-panel rounded-lg p-6" onSubmit={submit}>
+      <form className="glass-panel rounded-md p-6" onSubmit={submit}>
         <div className="grid gap-4">
           <Input label="Username" value={form.username} onChange={(value) => setForm({ ...form, username: value })} required />
           <Input label="Password" type="password" value={form.password} onChange={(value) => setForm({ ...form, password: value })} required />
@@ -890,17 +918,16 @@ function UploadPage({ setActivePage }) {
     <main className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
       <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
         <section>
-          <Pill tone="olive">Main orchestration endpoint</Pill>
-          <h1 className="mt-5 text-4xl font-bold leading-tight text-[#17201a]">Upload resume, trigger the full AI pipeline.</h1>
+          <h1 className="text-4xl font-bold leading-tight text-[#17201a]">Upload your resume and get a clear path forward.</h1>
           <p className="mt-4 text-lg leading-8 text-[#5f6958]">
-            This calls `/resume/upload`, then stores resume data, skills, recommendations, roadmap, and analytics.
+            We read your resume, identify strengths, recommend career paths, and build a practical roadmap.
           </p>
           <Pipeline />
         </section>
 
-        <section className="glass-panel rounded-lg p-6">
+        <section className="glass-panel rounded-md p-6">
           <div
-            className="flex min-h-72 flex-col items-center justify-center rounded-lg border-2 border-dashed border-[#b9c9aa] bg-white p-8 text-center transition hover:border-[#8ecae6]"
+            className="flex min-h-72 flex-col items-center justify-center rounded-md border-2 border-dashed border-[#b9c9aa] bg-white p-8 text-center transition hover:border-[#8ecae6]"
             onDragOver={(event) => event.preventDefault()}
             onDrop={(event) => {
               event.preventDefault()
@@ -938,12 +965,12 @@ function UploadPage({ setActivePage }) {
 }
 
 function Pipeline() {
-  const steps = ['Upload', 'Extract', 'LLM parse', 'Save skills', 'Recommend', 'Roadmap', 'Analytics']
+  const steps = ['Upload', 'Read resume', 'Find skills', 'Match careers', 'Build roadmap', 'Track progress']
 
   return (
     <div className="mt-8 grid gap-3">
       {steps.map((step, index) => (
-        <div key={step} className="flex items-center gap-3 rounded-lg bg-white p-4 shadow-sm">
+        <div key={step} className="flex items-center gap-3 rounded-md bg-white p-4 shadow-sm">
           <span className="flex size-8 shrink-0 items-center justify-center rounded-md bg-[#eef4e8] text-sm font-bold text-[#536431]">
             {index + 1}
           </span>
@@ -961,6 +988,11 @@ function ResultsPage() {
     career: item.role,
     similarity_score: item.demand / 100,
   }))
+  const skillGap = uploadResult?.skill_gap_analysis
+  const currentSkills = skillGap?.current_skills || uploadResult?.saved_skills || []
+  const requiredSkills = skillGap?.required_skills || []
+  const missingSkills = skillGap?.missing_skills || []
+  const matchedSkills = skillGap?.matched_skills || []
 
   return (
     <main className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
@@ -973,7 +1005,7 @@ function ResultsPage() {
       </div>
 
       <div className="mt-8 grid gap-6 lg:grid-cols-[1fr_0.85fr]">
-        <section className="glass-panel rounded-lg p-5">
+        <section className="glass-panel rounded-md p-5">
           <h2 className="text-xl font-bold text-[#17201a]">Career match comparison</h2>
           <div className="mt-5 h-72">
             <ResponsiveContainer width="100%" height="100%">
@@ -994,7 +1026,7 @@ function ResultsPage() {
 
         <section className="grid gap-4">
           {matches.map((item, index) => (
-            <div key={item.career} className="metric-card rounded-lg p-5">
+            <div key={item.career} className="metric-card rounded-md p-5">
               <div className="flex items-center justify-between gap-3">
                 <div>
                   <p className="text-xs font-bold uppercase tracking-wide text-[#8a957d]">Rank {index + 1}</p>
@@ -1009,7 +1041,42 @@ function ResultsPage() {
           ))}
         </section>
       </div>
+
+      <section className="mt-6 glass-panel rounded-md p-5">
+        <div className="flex flex-col justify-between gap-4 lg:flex-row lg:items-end">
+          <div>
+            <h2 className="text-xl font-bold text-[#17201a]">Skill gap analysis</h2>
+            <p className="mt-2 max-w-2xl text-sm leading-6 text-[#69725f]">
+              Required skills for {skillGap?.career || uploadResult?.recommended_career || 'the recommended role'} compared with the skills found in your resume.
+            </p>
+          </div>
+          <span className="rounded-md bg-[#eef4e8] px-3 py-2 text-sm font-bold text-[#536431]">
+            {Math.round(skillGap?.match_percentage || 0)}% matched
+          </span>
+        </div>
+
+        <div className="mt-5 grid gap-4 lg:grid-cols-3">
+          <SkillList title="Current skills" items={currentSkills} tone="sky" empty="Upload a resume to detect skills." />
+          <SkillList title="Required skills" items={requiredSkills} tone="olive" empty="Required skills will appear after analysis." />
+          <SkillList title="Missing skills" items={missingSkills} tone="yellow" empty={matchedSkills.length ? 'No major missing skills found.' : 'Missing skills will appear after analysis.'} />
+        </div>
+      </section>
     </main>
+  )
+}
+
+function SkillList({ title, items, tone, empty }) {
+  return (
+    <div className="rounded-md bg-white p-4">
+      <h3 className="font-bold text-[#17201a]">{title}</h3>
+      <div className="mt-3 flex flex-wrap gap-2">
+        {items.length ? items.map((skill) => (
+          <Pill key={`${title}-${skill}`} tone={tone}>{skill}</Pill>
+        )) : (
+          <p className="text-sm leading-6 text-[#69725f]">{empty}</p>
+        )}
+      </div>
+    </div>
   )
 }
 
@@ -1063,14 +1130,14 @@ function DashboardPage({ setActivePage }) {
       </div>
 
       <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-        <StatCard icon={FileUp} label="Total resumes" value={dashboardData?.total_resumes ?? (uploadResult ? 1 : 0)} hint="Uploaded through the AI pipeline" tone="olive" />
+        <StatCard icon={FileUp} label="Total resumes" value={dashboardData?.total_resumes ?? (uploadResult ? 1 : 0)} hint="Uploaded for analysis" tone="olive" />
         <StatCard icon={BriefcaseBusiness} label="Recommendations" value={dashboardData?.total_recommendations ?? (matches.length || 5)} hint="Ranked career matches" tone="sky" />
         <StatCard icon={Route} label="Roadmaps" value={dashboardData?.total_roadmaps ?? (uploadResult?.roadmap ? 1 : 3)} hint="Active learning paths" tone="yellow" />
         <StatCard icon={Check} label="Completed steps" value={dashboardData?.completed_steps ?? 14} hint="Progress tracked over time" tone="olive" />
       </div>
 
       <div className="mt-6 grid gap-6 xl:grid-cols-[1fr_0.9fr]">
-        <section className="glass-panel rounded-lg p-5">
+        <section className="glass-panel rounded-md p-5">
           <h2 className="text-xl font-bold text-[#17201a]">Skill growth radar</h2>
           <div className="mt-4 h-80">
             <ResponsiveContainer width="100%" height="100%">
@@ -1084,11 +1151,11 @@ function DashboardPage({ setActivePage }) {
           </div>
         </section>
 
-        <section className="glass-panel rounded-lg p-5">
+        <section className="glass-panel rounded-md p-5">
           <h2 className="text-xl font-bold text-[#17201a]">Recent activity</h2>
           <div className="mt-5 grid gap-3">
             {activities.slice(0, 4).map((item, index) => (
-              <div key={item} className="flex items-center gap-3 rounded-lg bg-white p-4">
+              <div key={item} className="flex items-center gap-3 rounded-md bg-white p-4">
                 <span className="flex size-9 items-center justify-center rounded-md bg-[#e8f6fb] text-[#35708c]">
                   <Clock3 size={17} />
                 </span>
@@ -1155,7 +1222,7 @@ function SchoolStudentDashboard() {
             Hi {user?.first_name || 'student'}, answer honestly and discover career families that match your interests. You can attempt it multiple times.
           </p>
         </div>
-        <div className="grid gap-2 rounded-lg bg-white p-4 text-sm font-semibold text-[#536431] shadow-sm">
+        <div className="grid gap-2 rounded-md bg-white p-4 text-sm font-semibold text-[#536431] shadow-sm">
           <span>Attempts completed: {attempts}</span>
           <span>Progress: {progress}%</span>
         </div>
@@ -1164,7 +1231,7 @@ function SchoolStudentDashboard() {
       <div className="mt-8 grid gap-6 lg:grid-cols-[1fr_0.8fr]">
         <section className="grid gap-4">
           {quizQuestions.map((item, questionIndex) => (
-            <div key={item.question} className="metric-card rounded-lg p-5">
+            <div key={item.question} className="metric-card rounded-md p-5">
               <div className="flex items-start gap-3">
                 <span className="flex size-9 shrink-0 items-center justify-center rounded-md bg-[#eef4e8] text-sm font-bold text-[#536431]">
                   {questionIndex + 1}
@@ -1179,7 +1246,7 @@ function SchoolStudentDashboard() {
                         <button
                           key={`${questionIndex}-${letter}`}
                           className={classNames(
-                            'rounded-lg border p-4 text-left text-sm leading-6 transition',
+                            'rounded-md border p-4 text-left text-sm leading-6 transition',
                             checked
                               ? 'border-[#6f7f45] bg-[#eef4e8] text-[#26341f]'
                               : 'border-[#dfe8d7] bg-white text-[#5f6958] hover:border-[#8ecae6]',
@@ -1198,10 +1265,10 @@ function SchoolStudentDashboard() {
         </section>
 
         <aside className="lg:sticky lg:top-24 lg:self-start">
-          <div className="glass-panel rounded-lg p-5">
+          <div className="glass-panel rounded-md p-5">
             <h2 className="text-xl font-bold text-[#17201a]">Quiz evaluation</h2>
-            <div className="mt-4 h-3 overflow-hidden rounded-full bg-[#e8f6fb]">
-              <div className="h-full rounded-full bg-[#6f7f45]" style={{ width: `${progress}%` }} />
+            <div className="mt-4 h-3 overflow-hidden rounded-md bg-[#e8f6fb]">
+              <div className="h-full rounded-md bg-[#6f7f45]" style={{ width: `${progress}%` }} />
             </div>
             <p className="mt-3 text-sm text-[#69725f]">{answeredCount} of {quizQuestions.length} questions answered.</p>
             <div className="mt-5 grid gap-3">
@@ -1219,12 +1286,12 @@ function SchoolStudentDashboard() {
                   const profile = quizProfiles[category]
 
                   return (
-                    <div key={category} className="rounded-lg bg-white p-4">
+                    <div key={category} className="rounded-md bg-white p-4">
                       <Pill tone="olive">{category}: {profile.label}</Pill>
                       <p className="mt-3 text-sm leading-6 text-[#5f6958]">{profile.description}</p>
                       <div className="mt-3 flex flex-wrap gap-2">
                         {profile.careers.map((career) => (
-                          <span key={career} className="rounded-full bg-[#e8f6fb] px-3 py-1 text-xs font-semibold text-[#27556d]">
+                          <span key={career} className="rounded-md bg-[#e8f6fb] px-3 py-1 text-xs font-semibold text-[#27556d]">
                             {career}
                           </span>
                         ))}
@@ -1233,13 +1300,13 @@ function SchoolStudentDashboard() {
                   )
                 })}
 
-                <div className="rounded-lg bg-white p-4">
+                <div className="rounded-md bg-white p-4">
                   <h3 className="font-bold text-[#17201a]">Score breakdown</h3>
                   <div className="mt-3 grid gap-2">
                     {Object.entries(result.scores).map(([category, score]) => (
                       <div key={category} className="grid grid-cols-[110px_1fr_auto] items-center gap-2 text-sm">
                         <span className="font-semibold text-[#536431]">{category}</span>
-                        <span className="h-2 overflow-hidden rounded-full bg-[#eef4e8]">
+                        <span className="h-2 overflow-hidden rounded-md bg-[#eef4e8]">
                           <span className="block h-full bg-[#8ecae6]" style={{ width: `${score * 10}%` }} />
                         </span>
                         <span className="font-bold text-[#17201a]">{score}</span>
@@ -1276,7 +1343,7 @@ function RoadmapPage() {
       </div>
 
       <div className="mt-8 grid gap-6 lg:grid-cols-[0.85fr_1.15fr]">
-        <section className="glass-panel rounded-lg p-5">
+        <section className="glass-panel rounded-md p-5">
           <h2 className="text-xl font-bold text-[#17201a]">Completion progress</h2>
           <div className="mt-5 h-64">
             <ResponsiveContainer width="100%" height="100%">
@@ -1291,7 +1358,7 @@ function RoadmapPage() {
           </div>
         </section>
 
-        <section className="glass-panel rounded-lg p-5">
+        <section className="glass-panel rounded-md p-5">
           <div className="grid gap-4">
             {steps.map((step, index) => (
               <RoadmapStep key={`${step.id}-${step.title}`} step={step} index={index} />
@@ -1313,7 +1380,7 @@ function RoadmapStep({ step, index }) {
   const StatusIcon = statusMap[status].icon
 
   return (
-    <div className="grid gap-4 rounded-lg bg-white p-4 sm:grid-cols-[auto_1fr_auto] sm:items-center">
+    <div className="grid gap-4 rounded-md bg-white p-4 sm:grid-cols-[auto_1fr_auto] sm:items-center">
       <div className="flex size-11 items-center justify-center rounded-md bg-[#17201a] text-sm font-bold text-white">{index + 1}</div>
       <div>
         <h3 className="font-bold text-[#17201a]">{step.title}</h3>
@@ -1329,12 +1396,11 @@ function RoadmapStep({ step, index }) {
 function TrendsPage() {
   return (
     <main className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
-      <Pill tone="yellow">Static market trend engine MVP</Pill>
-      <h1 className="mt-4 text-4xl font-bold text-[#17201a]">Market trends</h1>
-      <p className="mt-3 max-w-3xl text-[#5f6958]">A judging-ready dataset for skill demand, job growth, and salary insight. Later this can be replaced with Adzuna, RapidAPI jobs, or stored DB trends.</p>
+      <h1 className="text-4xl font-bold text-[#17201a]">Market trends</h1>
+      <p className="mt-3 max-w-3xl text-[#5f6958]">Compare demand, growth, and salary signals across popular career paths.</p>
 
       <div className="mt-8 grid gap-6 lg:grid-cols-2">
-        <section className="glass-panel rounded-lg p-5">
+        <section className="glass-panel rounded-md p-5">
           <h2 className="text-xl font-bold text-[#17201a]">Demand visualization</h2>
           <div className="mt-5 h-80">
             <ResponsiveContainer width="100%" height="100%">
@@ -1352,7 +1418,7 @@ function TrendsPage() {
 
         <section className="grid gap-4">
           {marketTrends.map((trend) => (
-            <div key={trend.role} className="metric-card rounded-lg p-5">
+            <div key={trend.role} className="metric-card rounded-md p-5">
               <div className="flex items-center justify-between gap-4">
                 <div>
                   <h3 className="font-bold text-[#17201a]">{trend.role}</h3>
@@ -1370,22 +1436,60 @@ function TrendsPage() {
 
 function AdminPage({ setActivePage }) {
   const { admin } = useAppStore()
+  const [overview, setOverview] = useState(null)
+  const [message, setMessage] = useState('')
+
+  useEffect(() => {
+    if (!admin) {
+      return
+    }
+
+    const loadOverview = async () => {
+      try {
+        const { data } = await api.get('/admin/overview')
+        setOverview(data)
+      } catch (error) {
+        setMessage(error.response?.data?.detail || 'Could not load admin overview.')
+      }
+    }
+
+    loadOverview()
+  }, [admin])
 
   if (!admin) {
     return <AdminLoginPage setActivePage={setActivePage} />
   }
 
+  const stats = overview?.stats || {}
+  const adminItems = [
+    ['Users', stats.users ?? 0, User],
+    ['Resumes', stats.resumes ?? 0, FileUp],
+    ['Recommendations', stats.recommendation_sessions ?? 0, Target],
+    ['Roadmaps', stats.roadmaps ?? 0, Route],
+    ['Skills', stats.skills ?? 0, GraduationCap],
+  ]
+
   return (
     <main className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
-      <Pill tone="olive">Optional admin panel</Pill>
-      <h1 className="mt-4 text-4xl font-bold text-[#17201a]">Admin workspace</h1>
-      <p className="mt-3 max-w-3xl text-[#5f6958]">A lightweight management view for trends, skills, analytics, and learning resources.</p>
+      <h1 className="text-4xl font-bold text-[#17201a]">Admin workspace</h1>
+      <p className="mt-3 max-w-3xl text-[#5f6958]">Operational totals and recent platform activity.</p>
+      {message && <p className="mt-4 rounded-md bg-[#fff6c8] p-3 text-sm font-semibold text-[#7a6414]">{message}</p>}
+
+      <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+        {adminItems.map(([label, value, Icon]) => (
+          <StatCard key={label} icon={Icon} label={label} value={value} hint="Current database total" tone={label === 'Recommendations' ? 'sky' : 'olive'} />
+        ))}
+      </div>
 
       <div className="mt-8 grid gap-6 lg:grid-cols-2">
         <AdminBlock icon={TrendingUp} title="Manage trends" items={marketTrends.map((item) => `${item.role} - ${item.demand}% demand`)} />
         <AdminBlock icon={BookOpen} title="Learning resources" items={resourceLibrary.map((item) => `${item.title} - ${item.provider}`)} />
         <AdminBlock icon={GraduationCap} title="Skill taxonomy" items={skillRadar.map((item) => `${item.skill} - ${item.value}% strength`)} />
-        <AdminBlock icon={BarChart3} title="Analytics snapshot" items={['5 resumes tracked', '3 roadmaps active', '14 steps completed']} />
+        <AdminBlock
+          icon={BarChart3}
+          title="Recent activity"
+          items={(overview?.recent_activities?.length ? overview.recent_activities : [{ description: 'No activity yet' }]).map((item) => item.description || item.type)}
+        />
       </div>
     </main>
   )
@@ -1393,7 +1497,7 @@ function AdminPage({ setActivePage }) {
 
 function AdminBlock({ icon: Icon, title, items }) {
   return (
-    <section className="glass-panel rounded-lg p-5">
+    <section className="glass-panel rounded-md p-5">
       <div className="flex items-center gap-3">
         <span className="flex size-10 items-center justify-center rounded-md bg-[#eef4e8] text-[#536431]">
           <Icon size={20} />
@@ -1402,7 +1506,7 @@ function AdminBlock({ icon: Icon, title, items }) {
       </div>
       <div className="mt-5 grid gap-3">
         {items.map((item) => (
-          <div key={item} className="rounded-lg bg-white p-4 text-sm font-semibold text-[#536431]">
+          <div key={item} className="rounded-md bg-white p-4 text-sm font-semibold text-[#536431]">
             {item}
           </div>
         ))}
@@ -1414,7 +1518,7 @@ function AdminBlock({ icon: Icon, title, items }) {
 function LearningResources() {
   return (
     <section className="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8">
-      <div className="glass-panel rounded-lg p-5">
+      <div className="glass-panel rounded-md p-5">
         <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
           <div>
             <Pill tone="sky">Learning resource engine</Pill>
@@ -1423,7 +1527,7 @@ function LearningResources() {
         </div>
         <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
           {resourceLibrary.map((resource) => (
-            <div key={resource.title} className="rounded-lg bg-white p-4">
+            <div key={resource.title} className="rounded-md bg-white p-4">
               <p className="text-xs font-bold uppercase tracking-wide text-[#8a957d]">{resource.type}</p>
               <h3 className="mt-2 font-bold text-[#17201a]">{resource.title}</h3>
               <p className="mt-2 text-sm text-[#69725f]">{resource.provider} - {resource.level}</p>
@@ -1437,7 +1541,9 @@ function LearningResources() {
 }
 
 function App() {
-  const [activePage, setActivePage] = useState('landing')
+  const [activePage, setActivePage] = useState(
+    new URLSearchParams(window.location.search).get('reset_token') ? 'auth' : 'landing',
+  )
   const { user, admin, studentMode } = useAppStore()
   const showResources = useMemo(
     () => !studentMode && user?.profile_type !== 'school_student' && ['dashboard', 'roadmap', 'trends', 'admin'].includes(activePage),
@@ -1471,7 +1577,7 @@ function App() {
       {pages[activePage]}
       {showResources && <LearningResources />}
       <footer className="border-t border-[#dfe8d7] px-4 py-6 text-center text-sm font-medium text-[#69725f]">
-        {admin ? 'CareerPilot AI Admin' : 'CareerPilot AI'} - FastAPI, React, Tailwind, Recharts, Zustand, JWT
+        {admin ? 'CareerPilot Admin' : 'CareerPilot'}
       </footer>
     </div>
   )

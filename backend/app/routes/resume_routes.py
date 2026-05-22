@@ -20,6 +20,7 @@ from app.services.recommendation_service import (
 )
 from app.services.resume_service import save_resume
 from app.services.roadmap_service import save_career_roadmap
+from app.services.skill_gap_service import build_skill_gap_analysis
 from app.services.skill_service import save_user_skills
 
 router = APIRouter(
@@ -190,6 +191,17 @@ async def upload_resume(
     predicted_career = prediction_result[
         "predicted_career"
     ]
+    skill_gap_analysis = build_skill_gap_analysis(
+        predicted_career,
+        skills
+    )
+    career_skill_gaps = [
+        build_skill_gap_analysis(
+            match["career"],
+            skills
+        )
+        for match in prediction_result["top_matches"]
+    ]
 
     roadmap_text = generate_roadmap(
         predicted_career,
@@ -226,6 +238,8 @@ async def upload_resume(
         "extracted_user_data": user_data,
         "saved_skills": skills,
         "recommended_career": predicted_career,
+        "skill_gap_analysis": skill_gap_analysis,
+        "career_skill_gaps": career_skill_gaps,
         "top_career_matches": prediction_result["top_matches"],
         "recommendation_session_id": recommendation_session.id,
         "roadmap": {

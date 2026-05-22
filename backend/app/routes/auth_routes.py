@@ -10,7 +10,9 @@ from app.core.security import (
 from app.models.user import User
 from app.services.auth_service import (
     authenticate_user,
-    create_user
+    create_user,
+    request_password_reset,
+    reset_password
 )
 
 router = APIRouter(
@@ -32,6 +34,17 @@ class LoginRequest(BaseModel):
 
     email: str
     password: str
+
+
+class ForgotPasswordRequest(BaseModel):
+
+    email: str
+
+
+class ResetPasswordRequest(BaseModel):
+
+    token: str
+    new_password: str
 
 
 def serialize_user(user: User) -> dict:
@@ -116,3 +129,52 @@ def me(
 ):
 
     return serialize_user(current_user)
+
+
+@router.post("/forgot-password")
+def forgot_password(
+    payload: ForgotPasswordRequest,
+    db: Session = Depends(get_db)
+):
+
+    try:
+
+        request_password_reset(
+            db=db,
+            email=payload.email
+        )
+
+    except RuntimeError as exc:
+
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=str(exc)
+        ) from exc
+
+    return {
+        "message": "If this email exists, a password reset link has been sent."
+    }
+
+
+@router.post("/reset-password")
+def reset_password_route(
+    payload: ResetPasswordRequest,
+    db: Session = Depends(get_db)
+):
+
+    ok = reset_password(
+        db=db,
+        token=payload.token,
+        new_password=payload.new_password
+    )
+
+    if not ok:
+
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Invalid reset token"
+        )
+
+    return {
+        "message": "Password updated successfully."
+    }

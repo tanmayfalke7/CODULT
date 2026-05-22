@@ -121,3 +121,7 @@ frontend/.env.production
 # =========================
 backend/.env
 backend/.env.local
+
+# Local runtime files
+backend/app/temp/
+career_app.db

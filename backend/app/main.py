@@ -15,6 +15,9 @@ from app.routes.career_routes import (
 from app.routes.auth_routes import (
     router as auth_router
 )
+from app.routes.admin_routes import (
+    router as admin_router
+)
 from app.routes.dashboard_routes import (
     router as dashboard_router
 )
@@ -74,6 +77,7 @@ app.add_middleware(
 # Include routes
 app.include_router(router)
 app.include_router(auth_router)
+app.include_router(admin_router)
 app.include_router(resume_router)
 app.include_router(dashboard_router)
 app.include_router(roadmap_router)

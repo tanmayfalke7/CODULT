@@ -27,3 +27,15 @@ SQL_ECHO = os.getenv(
     "SQL_ECHO",
     "false"
 ).lower() == "true"
+
+SMTP_HOST = os.getenv("SMTP_HOST", "smtp.gmail.com")
+SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
+SMTP_USERNAME = os.getenv("SMTP_USERNAME")
+SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")
+SMTP_FROM_EMAIL = os.getenv(
+    "SMTP_FROM_EMAIL",
+    SMTP_USERNAME or "no-reply@careerpilot.local"
+)
+FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:5173")
+ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "admin")
+ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "admin123")
