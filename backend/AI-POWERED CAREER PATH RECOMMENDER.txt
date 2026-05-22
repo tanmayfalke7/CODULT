@@ -1,0 +1,28 @@
+AI-POWERED CAREER PATH RECOMMENDER: DESIGN A PLATFORM THAT 
+MATCHES SKILLS, INTERESTS, AND MARKET TRENDS TO CAREER OPTIONS. USE 
+HYBRID ML MODELS COMBINING COLLABORATIVE FILTERING WITH LLMS FOR 
+RESUME PARSING. HOST ON AWS/AZURE FOR SCALABILITY AND INTEGRATE 
+INTERACTIVE VISUALIZATIONS FOR GUIDANCE. 
+Overview: The proposed AI-Powered Career Path Recommender is a hybrid machine learning 
+platform that integrates collaborative filtering models with Large Language Models (LLMs) 
+for resume parsing and skill extraction. By combining user-specific data (skills, interests, 
+academic background) with real-time labor market insights, the system will generate tailored 
+career recommendations. The platform will be hosted on AWS/Azure for scalability, reliability, 
+and security, and will feature interactive visualizations to help users explore career trajectories, 
+required skill upgrades, and industry demand trends. 
+Key Objectives / Expected Outcomes 
+• Personalized Career Guidance: Deliver customized career recommendations based 
+on individual skills, interests, and goals. 
+• Hybrid AI Approach: Combine collaborative filtering (peer-based recommendations) 
+with LLM-powered resume parsing for accurate skill mapping. 
+• Market Trend Integration: Continuously update recommendations using real-time 
+labor market analytics and industry forecasts. 
+• Scalable Cloud Deployment: Ensure high availability and performance through 
+AWS/Azure hosting with elastic scaling. 
+• Interactive Visualizations: Provide intuitive dashboards and career path maps to guide 
+users in decision-making. 
+• Skill Gap Analysis: Identify missing competencies and suggest targeted learning 
+resources or certifications. 
+• Inclusive Accessibility: Design user-friendly interfaces suitable for students, 
+professionals, and career counselors. 
+this is my problem satement so firstly i wanna create ML model which will give career recommendation based on skills,interests,education,experience,certification (as per attached csv file which i will use for training). KNN and logistic regression whichever is best go for it. flow : user upload resume python libraries will extract all text from resume and pass it to LLM then LLM will extract keywords - skills,interests,education,experience,certification give output in this format so that this output will go to ML model and then it will recommend best career. Then that ML output will be passed to LLM again with custom prompt to create Roadmap to achieve that Career. this is overall flow of my recommendation system for this hackathon.

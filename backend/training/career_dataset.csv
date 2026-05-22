@@ -1,0 +1,1001 @@
+id,skills,interests,education,experience_level,certifications,career
+1,Python Game Design Physics Engine,Interactive Media,BSc Computer Science,Beginner,C++ Institute,Game Developer
+2,Market Research Figma Data Analysis Roadmapping,Tech Leadership,BTech IT,Intermediate,PMP,Product Manager
+3,CI/CD Observability SLIs/SLOs Prometheus Design Systems,Cloud Operations,Diploma CS,Intermediate,Terraform Associate AWS SA,Site Reliability Engineer
+4,LLMs PyTorch Sentiment Analysis NLTK,Natural Language Processing,BTech IT,Advanced,AWS CCP,NLP Engineer
+5,Tableau Statistics NumPy Matplotlib,Data Science Analytics,BE AI,Beginner,Google Cloud Associate Azure Fundamentals,Data Scientist
+6,InVision Adobe XD Sketch User Research,Human-Computer Interaction Visual Design,BTech CSE,Intermediate,Figma Expert,UI/UX Designer
+7,Docker Feature Engineering NumPy Python REST API,Machine Learning AI Systems,BTech IT,Intermediate,TensorFlow Developer AWS SageMaker,ML Engineer
+8,OpenGL Physics Engine Python,Simulation,BCA,Intermediate,Google Play Academy,Game Developer
+9,Docker RDS Azure,Networking,MSc Data Science,Advanced,Terraform Associate AWS CCP,Cloud Engineer
+10,Roadmapping Product Analytics Stakeholder Management JIRA,Tech Leadership,BTech IT,Beginner,Google PM Certificate CSPO,Product Manager
+11,Redis REST API Java GraphQL,APIs Distributed Systems,BCA,Intermediate,MongoDB Associate Azure Fundamentals,Backend Developer
+12,Design Patterns Data Structures REST API SQL,Software Development Open Source,BE AI,Intermediate,RedHat RHCSA,Software Engineer
+13,SIEM Linux Firewall,Cybersecurity Privacy,BTech IT,Intermediate,CEH,Cybersecurity Analyst
+14,Power BI Pandas Data Visualization PostgreSQL,Reporting,BE AI,Intermediate,IBM Data Analyst Google Data Analytics,Data Analyst
+15,Power BI Use Cases Confluence Requirements Gathering,Strategy,BTech IT,Intermediate,Scrum Master,Business Analyst
+16,Agile A/B Testing Notion Data Analysis,User Research Business,MSc Data Science,Intermediate,Scrum Master,Product Manager
+17,Lua C++ Physics Engine Game Design,3D Design,Diploma CS,Intermediate,AWS GameTech,Game Developer
+18,R Seaborn NumPy Pandas,Analytics Machine Learning,BE AI,Advanced,Azure Fundamentals Google Cloud Associate,Data Scientist
+19,NFT Ethereum Smart Contracts Rust Databricks,DeFi Blockchain,BE AI,Intermediate,Solidity Developer,Blockchain Developer
+20,Helm Grafana Jenkins CI/CD,Automation Cloud Infrastructure,BTech IT,Advanced,RedHat RHCSA AWS SA,DevOps Engineer
+21,InVision Figma Wireframing,User Experience Design,Diploma CS,Advanced,Adobe XD Certified HCI Certificate,UI/UX Designer
+22,HLSL Shader Programming AI Pathfinding OpenGL,3D Design Interactive Media,Diploma CS,Beginner,Unity Certified Unreal Engine Cert,Game Developer
+23,Docker RDS S3 IAM,Cloud Computing Networking,BE AI,Beginner,Azure Fundamentals AWS CCP,Cloud Engineer
+24,Information Architecture InVision User Research Adobe XD,Design Human-Computer Interaction,MCA,Advanced,Interaction Design,UI/UX Designer
+25,Power BI ETL Statistics Python,Data Analytics,MCA,Beginner,Tableau Desktop,Data Analyst
+26,Sketch Usability Testing HTML User Research,Visual Design,Diploma CS,Advanced,Figma Expert Google UX Design,UI/UX Designer
+27,Tableau R Databricks Spark,Reporting,BCA,Beginner,Power BI Associate Tableau Desktop,Data Analyst
+28,App Store Google Play REST API React Native,Mobile Development,MCA,Beginner,Google Android Developer,Mobile App Developer
+29,Networking Docker Security RDS,DevOps Cloud Computing,BTech IT,Beginner,Google Cloud Associate AWS SA,Cloud Engineer
+30,Unity C# Multiplayer Networking HLSL,Game Development Graphics,BTech IT,Advanced,Google Play Academy Unity Certified,Game Developer
+31,R Spark Looker,Insights Business Intelligence,BTech CSE,Advanced,AWS CCP Google Data Analytics,Data Analyst
+32,PyTorch LLMs NER HuggingFace AI Pathfinding,Natural Language Processing Conversational AI,MSc Data Science,Beginner,AWS CCP,NLP Engineer
+33,Game Design Shader Programming Python HLSL,3D Design Simulation,BTech CSE,Advanced,AWS GameTech,Game Developer
+34,Prototyping Usability Testing User Research HTML,Design Human-Computer Interaction,BTech CSE,Intermediate,Interaction Design,UI/UX Designer
+35,PyTorch HuggingFace Sentiment Analysis FastAPI LangChain,Conversational AI,BTech IT,Advanced,TensorFlow Developer Google Cloud ML,NLP Engineer
+36,S3 Lambda Linux,Scalability Infrastructure,BE AI,Advanced,Google Cloud Associate,Cloud Engineer
+37,Kotlin App Store React Native iOS,Android,Diploma CS,Advanced,Firebase,Mobile App Developer
+38,MetaMask JavaScript Truffle Solidity,DeFi Decentralization,BTech IT,Beginner,Ethereum Developer Hyperledger,Blockchain Developer
+39,Python TensorFlow Kafka NumPy,MLOps Deep Learning,BE AI,Intermediate,AWS SA TensorFlow Developer,ML Engineer
+40,SIEM OWASP Vulnerability Assessment,Network Security,MCA,Intermediate,Cisco CCNA CISSP,Cybersecurity Analyst
+41,Kubeflow Docker TensorFlow MLflow Python,Machine Learning AI Systems,BTech IT,Beginner,AWS SageMaker,ML Engineer
+42,Express.js HTML MongoDB PostgreSQL,Full Stack Development Startups,BCA,Beginner,Azure Fundamentals,Full Stack Developer
+43,C++ Shader Programming AI Pathfinding Lua,3D Design,BTech CSE,Intermediate,AWS GameTech,Game Developer
+44,GraphQL Node.js Kafka Express.js,Databases Backend Systems,BCA,Beginner,Azure Fundamentals Oracle Java,Backend Developer
+45,Adobe XD Prototyping Usability Testing Design Systems,Visual Design,Diploma CS,Beginner,Adobe XD Certified Google UX Design,UI/UX Designer
+46,Unreal Engine Shader Programming AI Pathfinding C++,Graphics Simulation,BCA,Beginner,Google Play Academy,Game Developer
+47,FastAPI Microservices MongoDB Docker HuggingFace,Databases APIs,MCA,Intermediate,Azure Fundamentals Oracle Java,Backend Developer
+48,Spring Boot REST API MongoDB,Databases,BTech IT,Advanced,Spring Professional,Backend Developer
+49,Rust NFT IPFS,Decentralization Web3,BSc Computer Science,Advanced,Ethereum Developer,Blockchain Developer
+50,Transformers PyTorch LangChain Vector Databases,LLMs,BSc Computer Science,Advanced,Google Cloud Associate,AI Engineer
+51,Wireshark Metasploit Incident Response,Cybersecurity Network Security,MCA,Intermediate,CompTIA CySA+ CompTIA Security+,Cybersecurity Analyst
+52,CUDA NumPy PyTorch CNNs,Image Processing Computer Vision,MCA,Advanced,NVIDIA Deep Learning TensorFlow Developer,Computer Vision Engineer
+53,Scikit-learn Seaborn PyTorch Python,Data Science Research,BE AI,Beginner,AWS CCP,Data Scientist
+54,FastAPI Spring Boot Redis,Microservices APIs,BTech IT,Beginner,Spring Professional,Backend Developer
+55,SIEM Cryptography Python Network Security,Ethical Hacking Privacy,MCA,Beginner,CISSP,Cybersecurity Analyst
+56,Push Notifications REST API Kotlin iOS,Android Cross-platform Apps,Diploma CS,Beginner,Firebase,Mobile App Developer
+57,Use Cases Stakeholder Management JIRA,Data,MCA,Intermediate,Tableau Desktop PMI-PBA,Business Analyst
+58,Unreal Engine C++ Physics Engine,Game Development 3D Design,BTech IT,Intermediate,C++ Institute,Game Developer
+59,Next.js Jest Figma Webpack Google Play,UI Design,Diploma CS,Advanced,Azure Fundamentals,Frontend Developer
+60,Flutter React Native Google Play Android,UX,BE AI,Beginner,Apple iOS Developer AWS CCP,Mobile App Developer
+61,Xcode Push Notifications Dart,Cross-platform Apps,BTech CSE,Advanced,Apple iOS Developer,Mobile App Developer
+62,TypeScript Express.js GraphQL Next.js,Startups,BTech IT,Advanced,Azure Fundamentals,Full Stack Developer
+63,SQL ETL Statistics Pandas,Reporting,Diploma CS,Beginner,IBM Data Analyst,Data Analyst
+64,Terraform Google Cloud AWS CDN,Networking,BSc Computer Science,Advanced,Google Cloud Associate,Cloud Engineer
+65,Kubernetes Docker AWS,Infrastructure Networking,BSc Computer Science,Intermediate,Google Cloud Associate,Cloud Engineer
+66,Bash Grafana Prometheus Python Feature Engineering,Cloud Operations Automation,BE AI,Intermediate,Terraform Associate,Site Reliability Engineer
+67,Ansible Helm Bash,DevOps CI/CD,BTech IT,Advanced,Kubernetes CKA AWS SA,DevOps Engineer
+68,Matplotlib Jupyter Spark Scikit-learn,Machine Learning Statistics,MCA,Advanced,Google Cloud Associate TensorFlow Developer,Data Scientist
+69,Vue.js REST API Figma Webpack,UI Design,BSc Computer Science,Beginner,AWS CCP,Frontend Developer
+70,Scikit-learn Jupyter Python Power BI,Machine Learning Research,BTech CSE,Advanced,IBM Data Science,Data Scientist
+71,PyTorch R TensorFlow,Research,BSc Computer Science,Intermediate,Google Cloud Associate,Data Scientist
+72,AWS Docker Express.js GraphQL,Web Apps Full Stack Development,BTech CSE,Intermediate,Azure Fundamentals,Full Stack Developer
+73,Accessibility InVision User Research Information Architecture,Product Design,BTech CSE,Beginner,Figma Expert,UI/UX Designer
+74,Next.js CSS REST API HTML,Web Development JavaScript Ecosystem,BCA,Intermediate,JavaScript Algorithms,Frontend Developer
+75,Scrum User Stories SQL OKRs,Business Product Strategy,MCA,Advanced,Google PM Certificate,Product Manager
+76,Incident Management Grafana Kubernetes Ansible,Cloud Operations,BTech CSE,Beginner,Google Cloud SRE,Site Reliability Engineer
+77,JavaScript Smart Contracts Hardhat DeFi Data Analysis,DeFi,BCA,Intermediate,Certified Blockchain Expert,Blockchain Developer
+78,Python Incident Management Bash Kubernetes,Automation,Diploma CS,Advanced,AWS SA,Site Reliability Engineer
+79,Spark Scikit-learn AWS SageMaker Pandas YOLO,MLOps,MSc Data Science,Advanced,Azure ML AWS SageMaker,ML Engineer
+80,NER PyTorch spaCy,Linguistics,MCA,Intermediate,AWS CCP,NLP Engineer
+81,HLSL AI Pathfinding Python Multiplayer Networking,Graphics Interactive Media,BTech CSE,Intermediate,AWS GameTech,Game Developer
+82,JIRA Scrum Agile User Stories C++,Agile Tech Leadership,Diploma CS,Beginner,Google PM Certificate,Product Manager
+83,MongoDB Docker REST API,Distributed Systems,BTech IT,Beginner,Oracle Java Spring Professional,Backend Developer
+84,Docker Python Java SQL,Open Source Engineering,BSc Computer Science,Beginner,Google Cloud Associate,Software Engineer
+85,Next.js Tailwind CSS Vue.js Redux,UI Design,BE AI,Intermediate,JavaScript Algorithms Meta Frontend,Frontend Developer
+86,C++ Game Design Shader Programming,Game Development,BCA,Intermediate,Unreal Engine Cert Google Play Academy,Game Developer
+87,Text Classification NLTK Transformers PyTorch,Conversational AI Text Analytics,MSc Data Science,Intermediate,AWS CCP,NLP Engineer
+88,Node.js Next.js GraphQL,APIs Web Apps,BSc Computer Science,Beginner,Oracle Java Meta Full Stack,Full Stack Developer
+89,Agile Product Analytics A/B Testing SQL,Agile Business,MSc Data Science,Intermediate,Scrum Master,Product Manager
+90,Seaborn PyTorch R Matplotlib,Data Science Statistics,Diploma CS,Advanced,Google Cloud Associate Azure Fundamentals,Data Scientist
+91,Data Analysis Requirements Gathering Power BI Confluence Kubernetes,Strategy,BTech IT,Advanced,Scrum Master CBAP,Business Analyst
+92,Vue.js Tailwind CSS Jest TypeScript,Web Development JavaScript Ecosystem,BTech IT,Intermediate,Meta Frontend Azure Fundamentals,Frontend Developer
+93,OWASP Linux Cryptography Wireshark,Threat Intelligence,MCA,Beginner,CompTIA CySA+,Cybersecurity Analyst
+94,Scrum SQL A/B Testing OKRs AWS,Agile,MSc Data Science,Beginner,Google PM Certificate AWS CCP,Product Manager
+95,Tableau TensorFlow PyTorch,Research,BSc Computer Science,Advanced,AWS CCP,Data Scientist
+96,Generative AI Transformers Python PyTorch,AI,BTech CSE,Intermediate,AWS CCP,NLP Engineer
+97,CloudFormation Google Cloud Networking CDN LangChain,Cloud Computing,Diploma CS,Advanced,Google Cloud Associate AWS SA,Cloud Engineer
+98,Looker Power BI Data Visualization ETL,Insights,BE AI,Intermediate,Google Data Analytics AWS CCP,Data Analyst
+99,MongoDB Git Docker TypeScript,APIs,BCA,Intermediate,MongoDB Associate AWS CCP,Full Stack Developer
+100,Data Structures Python Unit Testing Java Android Studio,System Design Engineering,MCA,Advanced,Google Cloud Associate,Software Engineer
+101,Power BI BPMN Tableau Stakeholder Management,Enterprise Systems Data,BSc Computer Science,Intermediate,PMI-PBA,Business Analyst
+102,GraphQL CSS HTML Node.js,Full Stack Development Startups,BSc Computer Science,Advanced,Meta Full Stack,Full Stack Developer
+103,Transformers NLTK LangChain,Conversational AI,BTech IT,Intermediate,Google Cloud ML,NLP Engineer
+104,Text Classification Python LangChain TensorFlow Stakeholder Management,Text Analytics,BTech CSE,Advanced,DeepLearning.AI NLP,NLP Engineer
+105,PostgreSQL Python Google Analytics,Data Analytics Reporting,MSc Data Science,Advanced,Power BI Associate AWS CCP,Data Analyst
+106,ONNX Image Segmentation MediaPipe OpenCV,Computer Vision Image Processing,BE AI,Advanced,NVIDIA Deep Learning,Computer Vision Engineer
+107,FastAPI Python spaCy TensorFlow,Linguistics Conversational AI,MSc Data Science,Intermediate,TensorFlow Developer,NLP Engineer
+108,Python Solidity Smart Contracts,Decentralization,BCA,Advanced,Hyperledger,Blockchain Developer
+109,Next.js Docker Express.js REST API,Web Apps,MCA,Beginner,Meta Full Stack MongoDB Associate,Full Stack Developer
+110,Stakeholder Management Roadmapping SQL User Stories Webpack,Tech Leadership,BCA,Advanced,AWS CCP Google PM Certificate,Product Manager
+111,Unit Testing SQL Linux Docker Xcode,Engineering System Design,BTech IT,Advanced,Oracle Java CompTIA A+,Software Engineer
+112,Figma HTML REST API,User Experience UI Design,BCA,Beginner,AWS CCP Azure Fundamentals,Frontend Developer
+113,Penetration Testing Linux Cryptography,Privacy Cybersecurity,MCA,Advanced,Cisco CCNA,Cybersecurity Analyst
+114,Statistics Python SQL,Data Science Analytics,BE AI,Beginner,Google Cloud Associate Azure Fundamentals,Data Scientist
+115,S3 Terraform Kubernetes Lambda,Networking Cloud Computing,BSc Computer Science,Intermediate,Azure Fundamentals,Cloud Engineer
+116,Python REST API Data Structures Design Patterns,Open Source,BE AI,Advanced,Google Cloud Associate Oracle Java,Software Engineer
+117,CI/CD ArgoCD Kubernetes Linux Metasploit,CI/CD Platform Engineering,Diploma CS,Beginner,Google Cloud DevOps,DevOps Engineer
+118,Google Play SQLite Xcode,Mobile Development,BE AI,Beginner,Google Android Developer,Mobile App Developer
+119,ReactJS CSS Vue.js Redux,Web Performance,BSc Computer Science,Intermediate,AWS CCP JavaScript Algorithms,Frontend Developer
+120,TensorFlow Python LLMs Vector Databases,Generative AI Conversational AI,BCA,Beginner,Azure AI,AI Engineer
+121,Stakeholder Management User Stories A/B Testing Confluence CI/CD,User Research,BSc Computer Science,Advanced,Scrum Master,Product Manager
+122,Incident Response IDS/IPS Vulnerability Assessment,Privacy Threat Intelligence,BTech CSE,Advanced,CompTIA Security+,Cybersecurity Analyst
+123,Visio JIRA Agile,Process Improvement,BSc Computer Science,Intermediate,CBAP,Business Analyst
+124,REST API Redis Kafka,Databases,BTech IT,Advanced,MongoDB Associate,Backend Developer
+125,Android Swift Dart Kotlin,Cross-platform Apps iOS,BTech IT,Advanced,Google Android Developer Firebase,Mobile App Developer
+126,ArgoCD GitHub Actions Ansible CI/CD,DevOps Cloud Infrastructure,BSc Computer Science,Intermediate,Kubernetes CKA,DevOps Engineer
+127,SQL CI/CD C++ Unit Testing,Problem Solving,BTech IT,Advanced,AWS CCP,Software Engineer
+128,Python Cryptography Web3.js JavaScript PostgreSQL,DeFi Blockchain,MCA,Intermediate,Certified Blockchain Expert Ethereum Developer,Blockchain Developer
+129,TensorFlow LangChain Generative AI FastAPI Next.js,Natural Language Processing,BTech IT,Beginner,Google Cloud ML TensorFlow Developer,NLP Engineer
+130,Scrum OKRs Stakeholder Management Roadmapping,Agile Tech Leadership,MCA,Intermediate,PMP,Product Manager
+131,Prometheus AWS Chaos Engineering Python Metasploit,DevOps Cloud Operations,BTech IT,Intermediate,Kubernetes CKA,Site Reliability Engineer
+132,SQL System Design REST API CI/CD,Open Source Engineering,BCA,Intermediate,CompTIA A+ Oracle Java,Software Engineer
+133,Kubernetes Terraform Grafana Prometheus,Observability,Diploma CS,Intermediate,RedHat RHCSA,Site Reliability Engineer
+134,S3 Lambda Networking AWS Transformers,Networking,BTech IT,Intermediate,Google Cloud Associate Azure Fundamentals,Cloud Engineer
+135,Firebase Push Notifications Google Play React Native Figma,UX Cross-platform Apps,Diploma CS,Advanced,AWS CCP,Mobile App Developer
+136,3D Modeling Shader Programming Game Design,Graphics,BCA,Beginner,Google Play Academy,Game Developer
+137,Microservices Docker Express.js Node.js,Backend Systems,BTech IT,Advanced,MongoDB Associate,Backend Developer
+138,FastAPI AWS SageMaker Spark Pandas,Machine Learning MLOps,MCA,Beginner,AWS SageMaker,ML Engineer
+139,Terraform CloudFormation Lambda Docker,Networking Cloud Computing,Diploma CS,Intermediate,Azure Fundamentals,Cloud Engineer
+140,AI Pathfinding HLSL Lua Unreal Engine,Simulation,BTech IT,Intermediate,AWS GameTech Unreal Engine Cert,Game Developer
+141,NER Transformers Generative AI LLMs,Natural Language Processing Linguistics,MCA,Intermediate,HuggingFace Certified,NLP Engineer
+142,HuggingFace FastAPI LangChain Transformers Prompt Engineering,Linguistics Text Analytics,MCA,Advanced,DeepLearning.AI NLP Google Cloud ML,NLP Engineer
+143,Text Classification HuggingFace NLTK FastAPI,AI,BTech IT,Advanced,AWS CCP,NLP Engineer
+144,Docker Ansible Grafana Python Scrum,Platform Engineering Automation,MCA,Beginner,Google Cloud DevOps RedHat RHCSA,DevOps Engineer
+145,NFT Truffle Web3.js Python,Decentralization Blockchain,BTech CSE,Intermediate,Hyperledger,Blockchain Developer
+146,Networking CDN S3 CloudFormation,Networking Scalability,BTech CSE,Advanced,Google Cloud Associate,Cloud Engineer
+147,CSS Wireframing Sketch HTML Splunk,Product Design,BSc Computer Science,Intermediate,Interaction Design,UI/UX Designer
+148,Linux Azure IAM S3,Cloud Computing Networking,BTech CSE,Intermediate,Google Cloud Associate,Cloud Engineer
+149,Ansible ArgoCD Grafana CI/CD Pillow,Platform Engineering,BTech IT,Beginner,Google Cloud DevOps,DevOps Engineer
+150,Requirements Gathering Agile Data Analysis Tableau,Data Enterprise Systems,BTech IT,Beginner,CBAP Scrum Master,Business Analyst
+151,Web3.js JavaScript Chainlink Smart Contracts,Web3 Cryptography,BCA,Advanced,Web3 Developer Solidity Developer,Blockchain Developer
+152,NER FastAPI Generative AI HuggingFace,AI Text Analytics,Diploma CS,Advanced,TensorFlow Developer,NLP Engineer
+153,HTML InVision Information Architecture Zeplin,Product Design,Diploma CS,Beginner,Figma Expert HCI Certificate,UI/UX Designer
+154,A/B Testing Stakeholder Management Figma JIRA,Product Strategy Tech Leadership,BCA,Beginner,Scrum Master,Product Manager
+155,SQL Statistics Tableau PostgreSQL,Business Intelligence Reporting,BCA,Intermediate,Power BI Associate,Data Analyst
+156,InVision Sketch Figma Usability Testing,Visual Design,BCA,Beginner,Interaction Design,UI/UX Designer
+157,Redis Microservices MongoDB,Backend Systems Distributed Systems,MCA,Beginner,MongoDB Associate,Backend Developer
+158,TypeScript Git PostgreSQL MongoDB Spring Boot,Web Apps,BSc Computer Science,Beginner,Azure Fundamentals,Full Stack Developer
+159,Power BI Use Cases Business Process Tableau,Process Improvement Business Analysis,BCA,Beginner,Scrum Master ITIL,Business Analyst
+160,Web3.js Smart Contracts Truffle,Decentralization,BCA,Intermediate,Certified Blockchain Expert,Blockchain Developer
+161,Android Studio Firebase Android,Cross-platform Apps,BTech IT,Intermediate,Firebase,Mobile App Developer
+162,Java Node.js GraphQL MySQL,Databases APIs,BTech IT,Beginner,Oracle Java,Backend Developer
+163,SQL Looker Statistics Google Analytics Model Deployment,Visualization Insights,BSc Computer Science,Advanced,Power BI Associate,Data Analyst
+164,CDN Docker Lambda Google Cloud Vector Databases,Scalability Cloud Computing,Diploma CS,Advanced,AWS SA,Cloud Engineer
+165,Object Detection CUDA MediaPipe Python Excel,Computer Vision,BE AI,Advanced,NVIDIA Deep Learning,Computer Vision Engineer
+166,JIRA Data Analysis Confluence Business Process,Data,BTech IT,Advanced,CBAP,Business Analyst
+167,Linux Kubernetes Networking Azure,Networking,MCA,Beginner,AWS CCP Google Cloud Associate,Cloud Engineer
+168,Algorithms Linux Java,Problem Solving,BTech CSE,Beginner,RedHat RHCSA,Software Engineer
+169,OWASP SIEM Incident Response Network Security,Network Security,Diploma CS,Intermediate,CompTIA CySA+,Cybersecurity Analyst
+170,NumPy Spark Python PyTorch,MLOps,MCA,Intermediate,Google Cloud ML TensorFlow Developer,ML Engineer
+171,Python NLTK BERT spaCy,Text Analytics,MCA,Beginner,HuggingFace Certified,NLP Engineer
+172,Prototyping CSS User Research,Design Visual Design,MSc Data Science,Beginner,HCI Certificate,UI/UX Designer
+173,Usability Testing HTML Figma Sketch,Design,BE AI,Advanced,Interaction Design Google UX Design,UI/UX Designer
+174,REST API MongoDB Redis,Cloud,BTech IT,Beginner,MongoDB Associate Meta Full Stack,Full Stack Developer
+175,Process Mapping Business Process Confluence JIRA,Data Process Improvement,MCA,Beginner,PMI-PBA,Business Analyst
+176,HLSL Blender Unreal Engine Shader Programming NFT,3D Design,BCA,Beginner,Unreal Engine Cert,Game Developer
+177,Requirements Gathering Confluence Business Process,Data,MCA,Intermediate,Tableau Desktop CBAP,Business Analyst
+178,Generative AI HuggingFace Python TensorFlow,Generative AI,BE AI,Beginner,TensorFlow Developer,AI Engineer
+179,Tableau Excel Spark Statistics,Insights,BTech CSE,Beginner,Tableau Desktop,Data Analyst
+180,Object Detection Detectron2 PyTorch OpenCV,Computer Vision,BTech CSE,Beginner,Google Cloud ML PyTorch Certified,Computer Vision Engineer
+181,Ansible Kubernetes Docker Terraform Web3.js,Automation DevOps,BSc Computer Science,Beginner,Terraform Associate Google Cloud DevOps,DevOps Engineer
+182,Linux Jenkins GitHub Actions Terraform,CI/CD,BSc Computer Science,Beginner,Terraform Associate,DevOps Engineer
+183,PyTorch FastAPI Vector Databases LLMs,Conversational AI AI Products,MSc Data Science,Advanced,TensorFlow Developer,AI Engineer
+184,AWS SageMaker MLflow Python FastAPI,AI Systems,MSc Data Science,Intermediate,AWS SageMaker,ML Engineer
+185,Helm AWS Ansible Docker,Platform Engineering,Diploma CS,Advanced,Kubernetes CKA,DevOps Engineer
+186,Design Systems Sketch Canva Prototyping,User Experience Visual Design,BCA,Beginner,Google UX Design,UI/UX Designer
+187,Python CNNs CUDA TensorFlow,Image Processing Deep Learning,BE AI,Advanced,TensorFlow Developer,Computer Vision Engineer
+188,Observability Grafana Python Ansible,Observability,BTech IT,Beginner,Terraform Associate Google Cloud SRE,Site Reliability Engineer
+189,Ansible SLIs/SLOs Chaos Engineering Grafana,Cloud Operations,MCA,Beginner,AWS SA,Site Reliability Engineer
+190,Security Linux Lambda,Scalability,BE AI,Beginner,Terraform Associate,Cloud Engineer
+191,Node.js Docker MySQL,Distributed Systems Backend Systems,BTech IT,Advanced,Azure Fundamentals,Backend Developer
+192,Python Statistics Scikit-learn Matplotlib Figma,Statistics,BE AI,Intermediate,TensorFlow Developer Azure Fundamentals,Data Scientist
+193,CI/CD Prometheus Helm ArgoCD,CI/CD,BTech CSE,Intermediate,Kubernetes CKA,DevOps Engineer
+194,User Research Sketch Usability Testing,Human-Computer Interaction,BSc Computer Science,Intermediate,Interaction Design,UI/UX Designer
+195,Sketch Design Systems Usability Testing,Human-Computer Interaction,BTech IT,Intermediate,Figma Expert HCI Certificate,UI/UX Designer
+196,Data Visualization Google Analytics R,Data Analytics Visualization,BSc Computer Science,Intermediate,Google Data Analytics,Data Analyst
+197,Requirements Gathering Excel Stakeholder Management Confluence Redis,Strategy Enterprise Systems,MSc Data Science,Beginner,PMI-PBA Scrum Master,Business Analyst
+198,Kubeflow PyTorch FastAPI Python,MLOps Model Deployment,BE AI,Advanced,AWS SageMaker,ML Engineer
+199,Webpack Next.js Jest GraphQL,Web Performance UI Design,Diploma CS,Advanced,JavaScript Algorithms Azure Fundamentals,Frontend Developer
+200,Docker CloudFormation Kubernetes Azure,Scalability,BE AI,Advanced,AWS SA,Cloud Engineer
+201,AWS Kubernetes Observability Docker,Reliability Engineering,Diploma CS,Beginner,RedHat RHCSA,Site Reliability Engineer
+202,Express.js Redis Docker GraphQL LangChain,Microservices Distributed Systems,BTech CSE,Advanced,Oracle Java MongoDB Associate,Backend Developer
+203,Prompt Engineering LangChain LLMs,AI Research AI Products,MSc Data Science,Intermediate,Azure AI HuggingFace Certified,AI Engineer
+204,SIEM Firewall Incident Response IDS/IPS Usability Testing,Privacy,Diploma CS,Advanced,CEH,Cybersecurity Analyst
+205,ONNX YOLO CNNs Python,Deep Learning AI Research,BTech IT,Beginner,AWS CCP,Computer Vision Engineer
+206,FastAPI PyTorch Generative AI,Conversational AI,MCA,Advanced,Azure AI Google Cloud Associate,AI Engineer
+207,Keras Detectron2 PyTorch OpenCV,Image Processing Computer Vision,BE AI,Beginner,TensorFlow Developer,Computer Vision Engineer
+208,Model Deployment Kubeflow Kafka Scikit-learn,MLOps Deep Learning,BTech CSE,Advanced,AWS SageMaker,ML Engineer
+209,Game Design Physics Engine C# AI Pathfinding,Graphics Interactive Media,BTech IT,Intermediate,AWS GameTech,Game Developer
+210,Kubernetes ArgoCD Python Prometheus,Cloud Infrastructure,BSc Computer Science,Beginner,Terraform Associate,DevOps Engineer
+211,NumPy PyTorch CUDA Python,AI Research Deep Learning,MSc Data Science,Intermediate,AWS CCP Google Cloud ML,Computer Vision Engineer
+212,Market Research Stakeholder Management Figma,Tech Leadership,Diploma CS,Advanced,CSPO PMP,Product Manager
+213,HLSL OpenGL Lua Multiplayer Networking,Interactive Media Graphics,BTech IT,Beginner,C++ Institute Unreal Engine Cert,Game Developer
+214,Webpack Redux JavaScript REST API,User Experience Web Development,BSc Computer Science,Beginner,Google UX Design Azure Fundamentals,Frontend Developer
+215,ETL Pandas Google Analytics Power BI,Reporting,MSc Data Science,Advanced,IBM Data Analyst Tableau Desktop,Data Analyst
+216,CI/CD System Design Unit Testing Java,System Design Open Source,MCA,Intermediate,CompTIA A+ Google Cloud Associate,Software Engineer
+217,React Native REST API Flutter,iOS Mobile Development,BE AI,Advanced,Flutter Certified Google Android Developer,Mobile App Developer
+218,JIRA Data Analysis Roadmapping A/B Testing,Agile User Research,BCA,Beginner,CSPO Scrum Master,Product Manager
+219,Python CI/CD Git Algorithms,Problem Solving,BSc Computer Science,Beginner,CompTIA A+,Software Engineer
+220,Usability Testing Canva Information Architecture HTML,Design,BTech CSE,Beginner,HCI Certificate Adobe XD Certified,UI/UX Designer
+221,LLMs OpenAI API Transformers PyTorch R,Generative AI,BTech IT,Intermediate,TensorFlow Developer,AI Engineer
+222,Wireframing Canva HTML Zeplin,User Experience Human-Computer Interaction,BSc Computer Science,Intermediate,Adobe XD Certified,UI/UX Designer
+223,Transformers TensorFlow Python OpenAI API,LLMs,BCA,Beginner,TensorFlow Developer HuggingFace Certified,AI Engineer
+224,TensorFlow Tableau Seaborn,Research,BTech CSE,Beginner,Azure Fundamentals,Data Scientist
+225,HuggingFace LangChain spaCy TensorFlow,Natural Language Processing,BTech CSE,Advanced,DeepLearning.AI NLP HuggingFace Certified,NLP Engineer
+226,LangChain Vector Databases Prompt Engineering Transformers,Generative AI,BTech IT,Beginner,Azure AI AWS CCP,AI Engineer
+227,Statistics Power BI Excel SQL,Visualization,BTech CSE,Beginner,Google Data Analytics,Data Analyst
+228,Spark FastAPI PyTorch,Model Deployment,MCA,Intermediate,Azure ML TensorFlow Developer,ML Engineer
+229,Linux Observability Prometheus Grafana CSS,Reliability Engineering Automation,BTech CSE,Beginner,Kubernetes CKA,Site Reliability Engineer
+230,Google Play REST API Dart,Android iOS,Diploma CS,Intermediate,Flutter Certified Firebase,Mobile App Developer
+231,R Tableau NumPy Pandas,Data Science,BSc Computer Science,Intermediate,AWS CCP Azure Fundamentals,Data Scientist
+232,Text Classification Python NER Sentiment Analysis,Text Analytics Natural Language Processing,BSc Computer Science,Beginner,AWS CCP,NLP Engineer
+233,SQL PostgreSQL ETL Google Analytics,Insights Data Analytics,MSc Data Science,Intermediate,AWS CCP Tableau Desktop,Data Analyst
+234,Linux Firewall Network Security Vulnerability Assessment,Privacy Ethical Hacking,MCA,Intermediate,CISSP,Cybersecurity Analyst
+235,Solidity DeFi Smart Contracts MetaMask,Web3 Blockchain,BCA,Intermediate,Web3 Developer,Blockchain Developer
+236,Spring Boot MongoDB Python,Distributed Systems,BSc Computer Science,Advanced,Oracle Java,Backend Developer
+237,Game Design Lua OpenGL Shader Programming,Interactive Media Simulation,MCA,Intermediate,Google Play Academy AWS GameTech,Game Developer
+238,Pandas PostgreSQL R,Data Analytics,BCA,Advanced,Google Data Analytics IBM Data Analyst,Data Analyst
+239,REST API Swift Android Studio Push Notifications,Android,BTech IT,Beginner,Apple iOS Developer Flutter Certified,Mobile App Developer
+240,SQL Spark PyTorch Pandas,Research,BTech IT,Intermediate,IBM Data Science AWS CCP,Data Scientist
+241,Solidity DeFi JavaScript Chainlink,Decentralization Web3,BTech IT,Advanced,Ethereum Developer,Blockchain Developer
+242,Text Classification LLMs NLTK LangChain,Conversational AI Linguistics,BE AI,Intermediate,HuggingFace Certified DeepLearning.AI NLP,NLP Engineer
+243,OKRs Data Analysis Stakeholder Management User Stories,Agile,MCA,Advanced,Scrum Master AWS CCP,Product Manager
+244,Android Studio Xcode iOS,UX Cross-platform Apps,Diploma CS,Advanced,Flutter Certified Google Android Developer,Mobile App Developer
+245,Python TensorFlow HuggingFace,AI Products,BCA,Intermediate,AWS CCP TensorFlow Developer,AI Engineer
+246,REST API PostgreSQL FastAPI,Distributed Systems Backend Systems,BSc Computer Science,Beginner,AWS CCP Azure Fundamentals,Backend Developer
+247,Python Scikit-learn Power BI Tableau,AI,MCA,Advanced,AWS CCP Google Cloud Associate,Data Scientist
+248,Linux Cryptography Firewall Splunk,Privacy Ethical Hacking,BTech IT,Beginner,CompTIA CySA+,Cybersecurity Analyst
+249,TensorFlow Seaborn Statistics NumPy,AI Machine Learning,MSc Data Science,Beginner,Google Cloud Associate,Data Scientist
+250,REST API Webpack Angular Jest,Web Performance JavaScript Ecosystem,BCA,Advanced,Google UX Design,Frontend Developer
+251,AWS SageMaker NumPy PyTorch Docker,Model Deployment,MSc Data Science,Advanced,Google Cloud ML AWS SA,ML Engineer
+252,Linux Incident Response Vulnerability Assessment,Network Security,BSc Computer Science,Advanced,CEH,Cybersecurity Analyst
+253,Ansible AWS Helm GitHub Actions,Platform Engineering Cloud Infrastructure,BSc Computer Science,Intermediate,Terraform Associate AWS SA,DevOps Engineer
+254,Bash GitHub Actions ArgoCD,Automation,BTech IT,Advanced,AWS SA RedHat RHCSA,DevOps Engineer
+255,Python Docker FastAPI,Backend Systems,BCA,Beginner,Oracle Java,Backend Developer
+256,Excel Agile Power BI Requirements Gathering Linux,Strategy Enterprise Systems,BCA,Intermediate,Tableau Desktop,Business Analyst
+257,AWS GraphQL ReactJS,Startups Full Stack Development,MCA,Advanced,MongoDB Associate,Full Stack Developer
+258,R Statistics Databricks,Business Intelligence Insights,MCA,Advanced,Tableau Desktop Power BI Associate,Data Analyst
+259,CI/CD Linux Design Patterns Unit Testing,Problem Solving,BCA,Beginner,AWS CCP,Software Engineer
+260,Tailwind CSS Vue.js Jest Next.js,JavaScript Ecosystem,BSc Computer Science,Beginner,Google UX Design,Frontend Developer
+261,Unreal Engine C# Lua,Simulation Game Development,BTech CSE,Intermediate,Unreal Engine Cert,Game Developer
+262,Stakeholder Management JIRA Confluence Tableau,Data,MCA,Intermediate,ITIL Scrum Master,Business Analyst
+263,Algorithms Design Patterns REST API C++,Engineering System Design,BTech IT,Beginner,Google Cloud Associate CompTIA A+,Software Engineer
+264,HTML Canva Information Architecture User Research Google Play,Product Design Design,BSc Computer Science,Beginner,Adobe XD Certified HCI Certificate,UI/UX Designer
+265,Azure AWS Networking,Scalability DevOps,MSc Data Science,Advanced,Google Cloud Associate Azure Fundamentals,Cloud Engineer
+266,CI/CD Linux REST API Design Patterns,Engineering,BTech CSE,Intermediate,CompTIA A+ AWS CCP,Software Engineer
+267,Jest REST API Angular Webpack,User Experience,BSc Computer Science,Advanced,Azure Fundamentals,Frontend Developer
+268,SQL Tableau Looker R,Reporting,BTech CSE,Advanced,IBM Data Analyst,Data Analyst
+269,CNNs Image Segmentation Object Detection,Deep Learning,BTech IT,Advanced,AWS CCP NVIDIA Deep Learning,Computer Vision Engineer
+270,Firebase iOS Dart,Cross-platform Apps iOS,BCA,Intermediate,Flutter Certified Google Android Developer,Mobile App Developer
+271,MongoDB Docker Git,Web Apps Startups,MCA,Advanced,Oracle Java,Full Stack Developer
+272,TypeScript Figma Next.js Redux,UI Design Web Performance,Diploma CS,Beginner,AWS CCP,Frontend Developer
+273,NumPy R Seaborn Python,Data Science,MSc Data Science,Advanced,IBM Data Science TensorFlow Developer,Data Scientist
+274,Cryptography IDS/IPS Wireshark Penetration Testing,Threat Intelligence Privacy,BCA,Beginner,CompTIA CySA+ CompTIA Security+,Cybersecurity Analyst
+275,Jest REST API HTML Angular,JavaScript Ecosystem,BTech IT,Beginner,Azure Fundamentals Google UX Design,Frontend Developer
+276,Feature Engineering NumPy Spark Docker,AI Systems,BTech IT,Advanced,AWS SA,ML Engineer
+277,Scrum Data Analysis Product Analytics Market Research,Business,MCA,Beginner,Scrum Master Google PM Certificate,Product Manager
+278,Express.js Node.js Kafka,APIs Databases,BTech IT,Beginner,Spring Professional MongoDB Associate,Backend Developer
+279,AWS HTML ReactJS,Cloud,MCA,Intermediate,AWS CCP Oracle Java,Full Stack Developer
+280,Design Systems Wireframing Information Architecture CSS,Product Design Human-Computer Interaction,BE AI,Beginner,HCI Certificate Interaction Design,UI/UX Designer
+281,Linux Terraform ArgoCD CI/CD LangChain,Automation DevOps,BSc Computer Science,Advanced,AWS SA,DevOps Engineer
+282,JIRA Visio Data Analysis,Strategy,BTech CSE,Beginner,ITIL,Business Analyst
+283,AWS GitHub Actions ArgoCD Terraform,DevOps Platform Engineering,BE AI,Advanced,Google Cloud DevOps AWS SA,DevOps Engineer
+284,Information Architecture Sketch InVision HTML,User Experience,MSc Data Science,Beginner,HCI Certificate,UI/UX Designer
+285,Figma CSS Angular,UI Design Web Development,BTech IT,Intermediate,Meta Frontend Azure Fundamentals,Frontend Developer
+286,Data Structures Docker Python,Problem Solving,BE AI,Advanced,Google Cloud Associate CompTIA A+,Software Engineer
+287,Git Next.js GraphQL ReactJS CloudFormation,Cloud,BSc Computer Science,Beginner,MongoDB Associate AWS CCP,Full Stack Developer
+288,Wireframing CSS Accessibility Design Systems,Visual Design Product Design,Diploma CS,Intermediate,HCI Certificate Google UX Design,UI/UX Designer
+289,spaCy HuggingFace PyTorch NER,AI,BE AI,Advanced,AWS CCP,NLP Engineer
+290,Lua Python HLSL Unreal Engine,Interactive Media Simulation,BSc Computer Science,Intermediate,Unreal Engine Cert,Game Developer
+291,Roadmapping Data Analysis OKRs Confluence,Agile,BTech IT,Advanced,Scrum Master PMP,Product Manager
+292,Microservices MongoDB Kafka,Databases Microservices,BSc Computer Science,Intermediate,AWS CCP Azure Fundamentals,Backend Developer
+293,Push Notifications Dart Swift Flutter,UX Mobile Development,Diploma CS,Advanced,Flutter Certified,Mobile App Developer
+294,PostgreSQL Google Analytics R,Business Intelligence,BTech CSE,Intermediate,IBM Data Analyst Power BI Associate,Data Analyst
+295,Wireshark Python Firewall Nmap Prototyping,Privacy,MCA,Advanced,CISSP Cisco CCNA,Cybersecurity Analyst
+296,C++ REST API Unit Testing,System Design Engineering,MCA,Beginner,RedHat RHCSA,Software Engineer
+297,NumPy Scikit-learn Matplotlib Statistics,Machine Learning Research,BSc Computer Science,Beginner,TensorFlow Developer AWS CCP,Data Scientist
+298,GraphQL Microservices Spring Boot MongoDB HTML,Databases Microservices,BCA,Intermediate,MongoDB Associate,Backend Developer
+299,Firewall IDS/IPS Incident Response Linux,Network Security Threat Intelligence,MCA,Advanced,CEH Cisco CCNA,Cybersecurity Analyst
+300,Product Analytics Market Research JIRA Notion,Tech Leadership Business,BTech IT,Beginner,CSPO,Product Manager
+301,TensorFlow Spark Statistics Jupyter Xcode,Statistics Machine Learning,BSc Computer Science,Intermediate,AWS CCP,Data Scientist
+302,Swift Android Studio Kotlin Xcode,iOS,BTech CSE,Beginner,Flutter Certified,Mobile App Developer
+303,Network Security Vulnerability Assessment Metasploit,Network Security,BTech CSE,Advanced,CISSP CompTIA Security+,Cybersecurity Analyst
+304,Redis MongoDB CSS REST API,Full Stack Development,MCA,Intermediate,Meta Full Stack MongoDB Associate,Full Stack Developer
+305,SIEM Cryptography Linux OWASP,Threat Intelligence Network Security,BSc Computer Science,Advanced,CEH,Cybersecurity Analyst
+306,HLSL Blender OpenGL C#,Game Development,BTech IT,Intermediate,AWS GameTech Unity Certified,Game Developer
+307,CloudFormation Lambda CDN,Infrastructure DevOps,Diploma CS,Beginner,AWS CCP Terraform Associate,Cloud Engineer
+308,Web3.js JavaScript MetaMask Cryptography,Web3 DeFi,BTech IT,Advanced,Certified Blockchain Expert Solidity Developer,Blockchain Developer
+309,Incident Response Penetration Testing SIEM Vulnerability Assessment,Privacy,Diploma CS,Advanced,CompTIA Security+ CISSP,Cybersecurity Analyst
+310,Python PyTorch TensorFlow MLflow Vector Databases,MLOps,MCA,Beginner,TensorFlow Developer,ML Engineer
+311,A/B Testing SQL User Stories Product Analytics,Product Strategy User Research,BTech IT,Beginner,Google PM Certificate PMP,Product Manager
+312,Swift Kotlin Android,iOS,Diploma CS,Beginner,Apple iOS Developer,Mobile App Developer
+313,Notion Scrum Stakeholder Management Market Research,Business User Research,BCA,Advanced,AWS CCP,Product Manager
+314,Truffle NFT Cryptography Chainlink,Blockchain Web3,MCA,Advanced,Certified Blockchain Expert Ethereum Developer,Blockchain Developer
+315,Pandas Scikit-learn Tableau,Analytics,BSc Computer Science,Advanced,Google Cloud Associate,Data Scientist
+316,Docker Kubernetes AWS Python,Reliability Engineering,BTech IT,Advanced,Kubernetes CKA,Site Reliability Engineer
+317,Pandas Google Analytics Looker ETL,Business Intelligence Data Analytics,BCA,Advanced,Power BI Associate,Data Analyst
+318,AWS CI/CD Ansible Incident Management,DevOps Automation,MCA,Advanced,Google Cloud SRE Kubernetes CKA,Site Reliability Engineer
+319,Generative AI Transformers Vector Databases PyTorch Docker,AI Research,BE AI,Beginner,Azure AI AWS CCP,AI Engineer
+320,Azure S3 Networking Linux,Scalability DevOps,MCA,Intermediate,AWS SA AWS CCP,Cloud Engineer
+321,Adobe XD Figma Sketch,Design,BCA,Beginner,Interaction Design Figma Expert,UI/UX Designer
+322,Sentiment Analysis HuggingFace Python BERT Security,Text Analytics,BTech CSE,Intermediate,AWS CCP TensorFlow Developer,NLP Engineer
+323,Algorithms Docker Python,Software Development System Design,BTech IT,Beginner,CompTIA A+,Software Engineer
+324,OpenAI API Vector Databases RAG Transformers,Generative AI AI Products,MCA,Beginner,AWS CCP,AI Engineer
+325,Google Analytics Pandas ETL Excel,Reporting Insights,BE AI,Advanced,Power BI Associate Tableau Desktop,Data Analyst
+326,Kubernetes AWS Helm Bash,CI/CD Platform Engineering,BTech CSE,Advanced,Kubernetes CKA,DevOps Engineer
+327,DeFi Web3.js Truffle Solidity,Web3,BTech CSE,Advanced,Solidity Developer Hyperledger,Blockchain Developer
+328,Sketch Canva Wireframing User Research,Human-Computer Interaction,BTech IT,Advanced,HCI Certificate Adobe XD Certified,UI/UX Designer
+329,CI/CD Grafana Chaos Engineering AWS,Automation Reliability Engineering,MCA,Beginner,AWS SA RedHat RHCSA,Site Reliability Engineer
+330,Ansible Python AWS,Platform Engineering,BE AI,Beginner,Google Cloud DevOps AWS SA,DevOps Engineer
+331,Prompt Engineering HuggingFace PyTorch Vector Databases,Generative AI,MCA,Intermediate,AWS CCP,AI Engineer
+332,Transformers TensorFlow HuggingFace RAG,Conversational AI,BTech CSE,Advanced,Google Cloud Associate TensorFlow Developer,AI Engineer
+333,SQL Linux Design Patterns C++,Problem Solving System Design,BE AI,Beginner,Oracle Java,Software Engineer
+334,S3 Security Azure Lambda Hardhat,Infrastructure Scalability,MCA,Advanced,Azure Fundamentals,Cloud Engineer
+335,Generative AI FastAPI TensorFlow Text Classification,Natural Language Processing Linguistics,BE AI,Beginner,TensorFlow Developer,NLP Engineer
+336,TensorFlow CUDA PyTorch,Computer Vision Deep Learning,BTech CSE,Intermediate,PyTorch Certified,Computer Vision Engineer
+337,Vulnerability Assessment Wireshark Linux Python,Privacy,BSc Computer Science,Beginner,CompTIA Security+ CEH,Cybersecurity Analyst
+338,REST API Xcode Flutter React Native Network Security,Android Mobile Development,Diploma CS,Beginner,Firebase Google Android Developer,Mobile App Developer
+339,Docker CSS GraphQL,Web Apps,BCA,Advanced,AWS CCP,Full Stack Developer
+340,Ansible Linux AWS Grafana,Cloud Infrastructure,Diploma CS,Advanced,RedHat RHCSA Kubernetes CKA,DevOps Engineer
+341,IDS/IPS Wireshark Metasploit Network Security,Ethical Hacking,MCA,Advanced,CEH,Cybersecurity Analyst
+342,Redis Microservices Kafka GraphQL,APIs Microservices,BCA,Advanced,MongoDB Associate AWS CCP,Backend Developer
+343,Bash Prometheus Helm Kubernetes,Platform Engineering Automation,BTech IT,Advanced,Kubernetes CKA,DevOps Engineer
+344,Node.js MongoDB TypeScript,Cloud Startups,MCA,Beginner,AWS CCP,Full Stack Developer
+345,Data Visualization Spark Power BI Databricks,Business Intelligence,BCA,Beginner,Tableau Desktop AWS CCP,Data Analyst
+346,Pandas Excel Statistics R,Business Intelligence,BTech CSE,Intermediate,Power BI Associate,Data Analyst
+347,Docker IAM S3 CDN,DevOps,BSc Computer Science,Advanced,Azure Fundamentals Terraform Associate,Cloud Engineer
+348,Docker Model Deployment AWS SageMaker Python,MLOps Machine Learning,MCA,Intermediate,AWS SageMaker,ML Engineer
+349,Process Mapping Business Process SQL Data Analysis,Process Improvement,BTech CSE,Intermediate,ITIL PMI-PBA,Business Analyst
+350,REST API Python Design Patterns Docker,Engineering Software Development,BTech IT,Beginner,RedHat RHCSA,Software Engineer
+351,TensorFlow Python Transformers LLMs,Natural Language Processing AI,MSc Data Science,Advanced,TensorFlow Developer,NLP Engineer
+352,JIRA Excel Data Analysis Business Process Lua,Strategy,BCA,Beginner,Tableau Desktop PMI-PBA,Business Analyst
+353,Python JavaScript Solidity Rust HTML,Cryptography DeFi,BTech CSE,Beginner,Ethereum Developer,Blockchain Developer
+354,JavaScript ReactJS Redux REST API,Web Performance,MCA,Beginner,Azure Fundamentals JavaScript Algorithms,Frontend Developer
+355,GraphQL Git ReactJS Express.js,Full Stack Development,BTech CSE,Advanced,AWS CCP Oracle Java,Full Stack Developer
+356,Spark Pandas Feature Engineering MLflow,Machine Learning,MSc Data Science,Beginner,AWS SA AWS SageMaker,ML Engineer
+357,Design Patterns REST API System Design,Open Source Problem Solving,BTech IT,Intermediate,Google Cloud Associate,Software Engineer
+358,Python CI/CD Prometheus Grafana,DevOps,BTech CSE,Advanced,Terraform Associate,Site Reliability Engineer
+359,Pandas AWS SageMaker Kafka MLflow,Model Deployment Deep Learning,BSc Computer Science,Advanced,Azure ML AWS SageMaker,ML Engineer
+360,Power BI Business Process Requirements Gathering,Business Analysis,BCA,Advanced,Tableau Desktop,Business Analyst
+361,PyTorch Python NLTK FastAPI,Linguistics,BE AI,Beginner,AWS CCP DeepLearning.AI NLP,NLP Engineer
+362,Penetration Testing IDS/IPS Nmap Vulnerability Assessment,Ethical Hacking,Diploma CS,Advanced,Cisco CCNA CEH,Cybersecurity Analyst
+363,CloudFormation Google Cloud S3 CDN,Networking Cloud Computing,MSc Data Science,Advanced,AWS CCP AWS SA,Cloud Engineer
+364,Transformers PyTorch LangChain HuggingFace Push Notifications,AI Products,BCA,Advanced,AWS CCP TensorFlow Developer,AI Engineer
+365,Accessibility Wireframing Zeplin,Visual Design Design,BTech IT,Intermediate,Figma Expert Adobe XD Certified,UI/UX Designer
+366,C++ Java System Design Python,Engineering,BSc Computer Science,Advanced,Oracle Java,Software Engineer
+367,TensorFlow Sentiment Analysis LangChain spaCy,Natural Language Processing,BCA,Beginner,Google Cloud ML,NLP Engineer
+368,Incident Response Linux Penetration Testing Network Security,Threat Intelligence,Diploma CS,Intermediate,CEH,Cybersecurity Analyst
+369,NER Sentiment Analysis spaCy Python,AI,BE AI,Intermediate,Google Cloud ML TensorFlow Developer,NLP Engineer
+370,Ethereum Solidity IPFS,Decentralization,MCA,Intermediate,Certified Blockchain Expert,Blockchain Developer
+371,MongoDB Node.js PostgreSQL GraphQL,Full Stack Development Web Apps,BTech CSE,Beginner,AWS CCP Meta Full Stack,Full Stack Developer
+372,Kubernetes CI/CD SLIs/SLOs Chaos Engineering,Observability Automation,BTech IT,Intermediate,AWS SA,Site Reliability Engineer
+373,GraphQL Figma Redux Next.js,User Experience Web Performance,BTech IT,Beginner,Meta Frontend Azure Fundamentals,Frontend Developer
+374,Generative AI NLTK TensorFlow,Text Analytics,MCA,Intermediate,AWS CCP,NLP Engineer
+375,Jupyter Statistics NumPy,Research AI,BTech CSE,Intermediate,Azure Fundamentals IBM Data Science,Data Scientist
+376,Kubernetes AWS Terraform Python Networking,Automation,Diploma CS,Advanced,RedHat RHCSA Kubernetes CKA,Site Reliability Engineer
+377,Ansible CI/CD SLIs/SLOs,Observability Reliability Engineering,BCA,Intermediate,AWS SA RedHat RHCSA,Site Reliability Engineer
+378,Prompt Engineering TensorFlow PyTorch,LLMs,BTech CSE,Beginner,HuggingFace Certified,AI Engineer
+379,Scikit-learn Jupyter Power BI Matplotlib,Research,MSc Data Science,Advanced,Azure Fundamentals Google Cloud Associate,Data Scientist
+380,REST API Python CI/CD Docker,Open Source,BE AI,Beginner,CompTIA A+,Software Engineer
+381,CNNs OpenCV YOLO Python,AI Research Robotics,MCA,Intermediate,Google Cloud ML NVIDIA Deep Learning,Computer Vision Engineer
+382,FastAPI HuggingFace OpenAI API Vector Databases,Conversational AI LLMs,BE AI,Beginner,TensorFlow Developer,AI Engineer
+383,HuggingFace LLMs FastAPI TensorFlow,LLMs,MCA,Intermediate,Azure AI AWS CCP,AI Engineer
+384,Metasploit Linux Python OWASP,Ethical Hacking,BTech CSE,Advanced,CompTIA Security+ CISSP,Cybersecurity Analyst
+385,Keras CUDA CNNs,Deep Learning Computer Vision,BTech CSE,Beginner,Google Cloud ML TensorFlow Developer,Computer Vision Engineer
+386,Prompt Engineering LangChain OpenAI API,AI Research Generative AI,BTech CSE,Intermediate,Azure AI HuggingFace Certified,AI Engineer
+387,Terraform Linux CDN Kubernetes,Cloud Computing,BE AI,Advanced,AWS CCP Azure Fundamentals,Cloud Engineer
+388,NumPy Jupyter Python R REST API,Machine Learning,MSc Data Science,Advanced,Google Cloud Associate,Data Scientist
+389,GraphQL REST API Java,Microservices,BSc Computer Science,Intermediate,Azure Fundamentals,Backend Developer
+390,Kubernetes Linux Docker,DevOps Automation,BTech IT,Intermediate,Terraform Associate RedHat RHCSA,DevOps Engineer
+391,Grafana Prometheus Docker Kubernetes,Cloud Infrastructure,BTech IT,Beginner,Terraform Associate,DevOps Engineer
+392,Prometheus AWS CI/CD Incident Management,Cloud Operations Automation,BSc Computer Science,Intermediate,Google Cloud SRE,Site Reliability Engineer
+393,Docker Next.js Redis,Startups,BCA,Advanced,MongoDB Associate Meta Full Stack,Full Stack Developer
+394,RAG Prompt Engineering TensorFlow FastAPI,AI Research,BE AI,Intermediate,TensorFlow Developer,AI Engineer
+395,Python Scikit-learn Pandas,Machine Learning Data Science,MSc Data Science,Beginner,TensorFlow Developer,Data Scientist
+396,Agile Figma Market Research,Product Strategy,BCA,Intermediate,PMP,Product Manager
+397,MLflow Model Deployment FastAPI,Model Deployment MLOps,BE AI,Intermediate,TensorFlow Developer,ML Engineer
+398,Linux Terraform AWS Kubernetes Docker,Networking,BTech IT,Advanced,Google Cloud Associate Terraform Associate,Cloud Engineer
+399,SQL Roadmapping Figma,User Research Product Strategy,BTech CSE,Advanced,Google PM Certificate PMP,Product Manager
+400,PyTorch NumPy MediaPipe,Deep Learning Image Processing,BE AI,Advanced,PyTorch Certified,Computer Vision Engineer
+401,Chaos Engineering AWS Observability Terraform,Automation,Diploma CS,Advanced,AWS SA Google Cloud SRE,Site Reliability Engineer
+402,Terraform AWS Jenkins,Platform Engineering Cloud Infrastructure,MCA,Intermediate,RedHat RHCSA,DevOps Engineer
+403,Metasploit IDS/IPS Splunk Wireshark,Network Security,MCA,Advanced,CompTIA Security+,Cybersecurity Analyst
+404,Angular CSS Redux,User Experience Web Performance,BTech CSE,Beginner,AWS CCP Meta Frontend,Frontend Developer
+405,Python Image Segmentation OpenCV TensorFlow,AI Research,BTech CSE,Beginner,Google Cloud ML,Computer Vision Engineer
+406,MongoDB Kafka Java PostgreSQL,APIs,BCA,Beginner,Spring Professional AWS CCP,Backend Developer
+407,GitHub Actions ArgoCD Python Helm,DevOps,BE AI,Intermediate,Kubernetes CKA AWS SA,DevOps Engineer
+408,Data Visualization Google Analytics Excel Pandas,Insights,BTech CSE,Beginner,Tableau Desktop AWS CCP,Data Analyst
+409,Transformers TensorFlow BERT,Natural Language Processing,BE AI,Beginner,Google Cloud ML,NLP Engineer
+410,Canva Adobe XD Zeplin InVision NumPy,Visual Design User Experience,BTech CSE,Advanced,Interaction Design Adobe XD Certified,UI/UX Designer
+411,Firewall Cryptography Network Security OWASP,Threat Intelligence Cybersecurity,Diploma CS,Intermediate,CEH CompTIA Security+,Cybersecurity Analyst
+412,Prompt Engineering PyTorch Vector Databases RAG,LLMs AI Products,BTech CSE,Beginner,HuggingFace Certified AWS CCP,AI Engineer
+413,Bash Grafana Prometheus Docker Python,Observability Cloud Operations,BTech CSE,Advanced,Kubernetes CKA,Site Reliability Engineer
+414,MongoDB Redis Spring Boot FastAPI,Microservices Databases,BCA,Beginner,Azure Fundamentals,Backend Developer
+415,Usability Testing Information Architecture Prototyping Canva,Visual Design,BCA,Intermediate,Adobe XD Certified,UI/UX Designer
+416,Docker MongoDB Next.js TypeScript,Web Apps APIs,MCA,Intermediate,AWS CCP,Full Stack Developer
+417,ReactJS JavaScript HTML Next.js,User Experience UI Design,MCA,Intermediate,JavaScript Algorithms,Frontend Developer
+418,Kafka Redis PostgreSQL Spring Boot,APIs Distributed Systems,MSc Data Science,Beginner,AWS CCP Spring Professional,Backend Developer
+419,Dart Kotlin Google Play,Mobile Development UX,BTech CSE,Intermediate,Flutter Certified Google Android Developer,Mobile App Developer
+420,C++ Unreal Engine Shader Programming Unity,Graphics,BTech IT,Advanced,Unity Certified,Game Developer
+421,YOLO PyTorch Pillow,Robotics Image Processing,BE AI,Beginner,Google Cloud ML TensorFlow Developer,Computer Vision Engineer
+422,Azure Linux IAM,Networking Infrastructure,BE AI,Advanced,AWS SA,Cloud Engineer
+423,System Design Design Patterns Python Docker,Software Development,BSc Computer Science,Advanced,Google Cloud Associate,Software Engineer
+424,ETL Google Analytics PostgreSQL Python,Reporting,BTech CSE,Advanced,IBM Data Analyst Tableau Desktop,Data Analyst
+425,Linux Data Structures System Design CI/CD,Open Source Software Development,MCA,Intermediate,CompTIA A+ AWS CCP,Software Engineer
+426,Stakeholder Management Market Research Data Analysis User Stories,Product Strategy Agile,BSc Computer Science,Beginner,Google PM Certificate,Product Manager
+427,User Stories Scrum Confluence JIRA,Agile,BTech IT,Advanced,CSPO,Product Manager
+428,Cryptography DeFi Web3.js NFT,Cryptography Blockchain,BTech CSE,Beginner,Solidity Developer,Blockchain Developer
+429,Firebase Dart iOS Xcode,UX Cross-platform Apps,MCA,Beginner,Apple iOS Developer AWS CCP,Mobile App Developer
+430,Notion Confluence Agile JIRA Power BI,Business Agile,BTech IT,Advanced,Scrum Master AWS CCP,Product Manager
+431,IAM S3 Lambda Google Cloud,Cloud Computing,MCA,Advanced,Terraform Associate,Cloud Engineer
+432,Vue.js Figma ReactJS Webpack Kubernetes,UI Design JavaScript Ecosystem,BTech IT,Advanced,AWS CCP JavaScript Algorithms,Frontend Developer
+433,AWS Chaos Engineering Kubernetes Ansible,Reliability Engineering,Diploma CS,Advanced,Terraform Associate Google Cloud SRE,Site Reliability Engineer
+434,Looker Data Visualization ETL Excel,Data Analytics Visualization,BCA,Advanced,Power BI Associate,Data Analyst
+435,Hardhat Ethereum Chainlink Solidity,DeFi,BTech CSE,Advanced,Ethereum Developer Web3 Developer,Blockchain Developer
+436,Figma Stakeholder Management Agile Market Research Dart,Agile Business,MCA,Beginner,CSPO AWS CCP,Product Manager
+437,Docker CSS REST API Node.js,Cloud Startups,BCA,Advanced,Oracle Java AWS CCP,Full Stack Developer
+438,GraphQL Redis Node.js Spring Boot Product Analytics,Backend Systems,BCA,Intermediate,Spring Professional,Backend Developer
+439,SLIs/SLOs Chaos Engineering Kubernetes Docker,Observability Cloud Operations,MCA,Advanced,Terraform Associate RedHat RHCSA,Site Reliability Engineer
+440,MLflow Model Deployment Spark AWS SageMaker NumPy,Model Deployment,MCA,Advanced,TensorFlow Developer,ML Engineer
+441,Penetration Testing Firewall Cryptography Nmap HTML,Network Security Privacy,BTech IT,Intermediate,CISSP,Cybersecurity Analyst
+442,Ansible Linux Grafana Docker PyTorch,DevOps,MCA,Advanced,AWS SA Kubernetes CKA,DevOps Engineer
+443,Roadmapping Notion Market Research,Tech Leadership,MCA,Advanced,CSPO AWS CCP,Product Manager
+444,MetaMask Web3.js Solidity Chainlink CNNs,Cryptography Decentralization,BTech IT,Beginner,Hyperledger,Blockchain Developer
+445,Information Architecture Prototyping Accessibility,Visual Design Design,BTech IT,Beginner,Figma Expert HCI Certificate,UI/UX Designer
+446,JIRA Confluence Product Analytics Figma,User Research,BTech CSE,Beginner,Scrum Master,Product Manager
+447,Prometheus Kubernetes Docker,Reliability Engineering Automation,Diploma CS,Intermediate,Kubernetes CKA,Site Reliability Engineer
+448,Python Object Detection OpenCV,Deep Learning,BTech CSE,Beginner,PyTorch Certified,Computer Vision Engineer
+449,MySQL Microservices Node.js,Databases,Diploma CS,Intermediate,Spring Professional,Backend Developer
+450,Agile Power BI Data Analysis,Enterprise Systems,MCA,Advanced,Scrum Master,Business Analyst
+451,Grafana GitHub Actions Kubernetes Bash Python,Platform Engineering Automation,BTech CSE,Beginner,Terraform Associate Google Cloud DevOps,DevOps Engineer
+452,Azure Lambda Terraform CDN Metasploit,Scalability,MCA,Advanced,AWS CCP AWS SA,Cloud Engineer
+453,PyTorch spaCy TensorFlow Text Classification Unreal Engine,Linguistics Text Analytics,MCA,Beginner,Google Cloud ML,NLP Engineer
+454,Terraform Google Cloud AWS S3,Networking,BTech CSE,Beginner,Terraform Associate,Cloud Engineer
+455,Dart React Native Android Studio,iOS Android,Diploma CS,Beginner,Flutter Certified,Mobile App Developer
+456,PostgreSQL HTML AWS GraphQL,APIs Cloud,BCA,Intermediate,Oracle Java Azure Fundamentals,Full Stack Developer
+457,Stakeholder Management Power BI Use Cases,Business Analysis,BSc Computer Science,Advanced,PMI-PBA,Business Analyst
+458,Redis TypeScript MongoDB,Startups,BSc Computer Science,Beginner,Azure Fundamentals Meta Full Stack,Full Stack Developer
+459,Shader Programming HLSL 3D Modeling,3D Design,BTech IT,Intermediate,C++ Institute AWS GameTech,Game Developer
+460,Python LLMs Transformers LangChain,Text Analytics,BE AI,Advanced,Google Cloud ML TensorFlow Developer,NLP Engineer
+461,Product Analytics Market Research Stakeholder Management Confluence,Tech Leadership Agile,BCA,Intermediate,AWS CCP Google PM Certificate,Product Manager
+462,PyTorch Tableau TensorFlow,Analytics,MCA,Intermediate,Google Cloud Associate,Data Scientist
+463,SQL A/B Testing Confluence Data Analysis,Agile,MCA,Advanced,PMP,Product Manager
+464,TensorFlow Kubeflow PyTorch Python,MLOps,MCA,Advanced,Google Cloud ML TensorFlow Developer,ML Engineer
+465,GraphQL ReactJS TypeScript Next.js,Startups Full Stack Development,BTech IT,Advanced,MongoDB Associate,Full Stack Developer
+466,Accessibility Canva InVision User Research,Human-Computer Interaction Visual Design,BCA,Advanced,Figma Expert,UI/UX Designer
+467,Express.js FastAPI PostgreSQL,Microservices,BTech CSE,Advanced,MongoDB Associate AWS CCP,Backend Developer
+468,Ethereum Cryptography Truffle DeFi,Decentralization DeFi,BSc Computer Science,Intermediate,Solidity Developer Hyperledger,Blockchain Developer
+469,Redis AWS REST API MongoDB,Cloud,BSc Computer Science,Advanced,Meta Full Stack AWS CCP,Full Stack Developer
+470,Ansible Linux Docker Kubernetes,CI/CD Platform Engineering,BTech CSE,Advanced,Terraform Associate,DevOps Engineer
+471,PyTorch YOLO NumPy CUDA,Image Processing Computer Vision,BTech CSE,Beginner,Google Cloud ML PyTorch Certified,Computer Vision Engineer
+472,Express.js Docker Microservices Java,Databases,BCA,Intermediate,Oracle Java,Backend Developer
+473,Python Vulnerability Assessment Network Security,Threat Intelligence Network Security,BE AI,Intermediate,Cisco CCNA,Cybersecurity Analyst
+474,OKRs Confluence JIRA,Tech Leadership,MSc Data Science,Advanced,Google PM Certificate PMP,Product Manager
+475,FastAPI Node.js GraphQL Kafka REST API,Distributed Systems,BTech CSE,Beginner,Azure Fundamentals,Backend Developer
+476,Truffle MetaMask IPFS Solidity,Blockchain DeFi,BSc Computer Science,Advanced,Certified Blockchain Expert,Blockchain Developer
+477,Multiplayer Networking C# HLSL Physics Engine,Game Development Simulation,BTech CSE,Advanced,C++ Institute,Game Developer
+478,Algorithms Unit Testing Design Patterns,Engineering,BSc Computer Science,Intermediate,AWS CCP Oracle Java,Software Engineer
+479,Physics Engine Lua HLSL AI Pathfinding Git,Interactive Media,BSc Computer Science,Intermediate,C++ Institute AWS GameTech,Game Developer
+480,AI Pathfinding Unreal Engine C# Python,Interactive Media,BSc Computer Science,Advanced,AWS GameTech Unity Certified,Game Developer
+481,Redis Git MongoDB CSS,Full Stack Development,MCA,Intermediate,AWS CCP,Full Stack Developer
+482,AWS SageMaker Feature Engineering Spark PyTorch CI/CD,MLOps Deep Learning,BCA,Intermediate,AWS SA,ML Engineer
+483,FastAPI spaCy BERT HuggingFace,Linguistics Text Analytics,MCA,Beginner,DeepLearning.AI NLP,NLP Engineer
+484,IDS/IPS Splunk Penetration Testing Python,Ethical Hacking Cybersecurity,MCA,Advanced,CompTIA Security+ CEH,Cybersecurity Analyst
+485,Excel Data Visualization Python SQL,Visualization Data Analytics,MSc Data Science,Beginner,Power BI Associate AWS CCP,Data Analyst
+486,Scikit-learn Power BI SQL Jupyter,Research Data Science,BE AI,Beginner,Google Cloud Associate,Data Scientist
+487,Prototyping Design Systems HTML Canva,Design Product Design,BTech CSE,Advanced,Adobe XD Certified Interaction Design,UI/UX Designer
+488,Pillow CUDA YOLO,Computer Vision,BE AI,Intermediate,PyTorch Certified TensorFlow Developer,Computer Vision Engineer
+489,Terraform Prometheus Ansible Bash REST API,Automation,BTech IT,Intermediate,RedHat RHCSA,Site Reliability Engineer
+490,Nmap Python SIEM Penetration Testing,Ethical Hacking Network Security,BTech CSE,Beginner,CISSP CompTIA CySA+,Cybersecurity Analyst
+491,Requirements Gathering BPMN Agile Confluence,Process Improvement Data,BSc Computer Science,Beginner,CBAP PMI-PBA,Business Analyst
+492,Agile Product Analytics User Stories JIRA Google Cloud,Product Strategy Business,MCA,Advanced,Google PM Certificate AWS CCP,Product Manager
+493,TypeScript Node.js Express.js PostgreSQL,Startups,MCA,Advanced,Meta Full Stack,Full Stack Developer
+494,Docker AWS GitHub Actions Kubernetes,Cloud Infrastructure,BTech CSE,Intermediate,Google Cloud DevOps AWS SA,DevOps Engineer
+495,MySQL Java Spring Boot MongoDB,Databases Backend Systems,BTech CSE,Advanced,Azure Fundamentals AWS CCP,Backend Developer
+496,Xcode Android iOS,Mobile Development Cross-platform Apps,BTech IT,Intermediate,Google Android Developer,Mobile App Developer
+497,Google Cloud Linux Lambda RDS,Cloud Computing,Diploma CS,Advanced,AWS CCP Google Cloud Associate,Cloud Engineer
+498,Adobe XD Information Architecture User Research CSS,Visual Design Product Design,BSc Computer Science,Advanced,Google UX Design Interaction Design,UI/UX Designer
+499,Jupyter NumPy Scikit-learn R,AI,BE AI,Advanced,AWS CCP,Data Scientist
+500,Linux IDS/IPS Incident Response,Privacy Threat Intelligence,MCA,Intermediate,CompTIA Security+,Cybersecurity Analyst
+501,spaCy Generative AI BERT LangChain,Conversational AI Natural Language Processing,BTech CSE,Advanced,DeepLearning.AI NLP,NLP Engineer
+502,Excel Stakeholder Management Use Cases Business Process,Data Business Analysis,BTech CSE,Beginner,PMI-PBA Tableau Desktop,Business Analyst
+503,SQL Python Statistics PostgreSQL,Insights Visualization,BSc Computer Science,Advanced,Power BI Associate Tableau Desktop,Data Analyst
+504,Pandas MLflow Spark TensorFlow Python,Machine Learning,BTech CSE,Beginner,Azure ML AWS SA,ML Engineer
+505,Grafana CI/CD Python Linux,CI/CD Cloud Infrastructure,BTech IT,Beginner,AWS SA,DevOps Engineer
+506,Spark SQL Python Power BI,Research,BSc Computer Science,Beginner,Google Cloud Associate,Data Scientist
+507,Tableau Stakeholder Management Process Mapping,Process Improvement,BSc Computer Science,Intermediate,CBAP ITIL,Business Analyst
+508,OpenAI API Generative AI Prompt Engineering,Generative AI AI Research,MCA,Intermediate,Azure AI Google Cloud Associate,AI Engineer
+509,Linux Firewall Cryptography Incident Response Stakeholder Management,Cybersecurity,MCA,Advanced,CompTIA CySA+ CEH,Cybersecurity Analyst
+510,Python Penetration Testing OWASP Firewall Chainlink,Privacy Cybersecurity,BTech IT,Intermediate,Cisco CCNA CompTIA Security+,Cybersecurity Analyst
+511,REST API Unit Testing System Design CI/CD,Open Source,BE AI,Intermediate,RedHat RHCSA Oracle Java,Software Engineer
+512,Terraform Grafana ArgoCD GitHub Actions,Automation,BSc Computer Science,Intermediate,Terraform Associate,DevOps Engineer
+513,CloudFormation Kubernetes Docker,Infrastructure,Diploma CS,Advanced,Google Cloud Associate,Cloud Engineer
+514,Canva CSS Figma Adobe XD,Design User Experience,BTech IT,Intermediate,Figma Expert HCI Certificate,UI/UX Designer
+515,REST API Vue.js JavaScript,User Experience,BTech IT,Beginner,JavaScript Algorithms,Frontend Developer
+516,Webpack Next.js CSS TypeScript,User Experience Web Performance,BTech IT,Beginner,Meta Frontend Google UX Design,Frontend Developer
+517,Usability Testing Accessibility Information Architecture Figma,Human-Computer Interaction Product Design,BCA,Intermediate,Interaction Design Figma Expert,UI/UX Designer
+518,SQL NumPy Tableau Seaborn,Data Science,BE AI,Intermediate,IBM Data Science Google Cloud Associate,Data Scientist
+519,CloudFormation Google Cloud Lambda,Infrastructure,BTech IT,Intermediate,Terraform Associate,Cloud Engineer
+520,RAG Transformers HuggingFace,Conversational AI AI Research,MSc Data Science,Advanced,Google Cloud Associate TensorFlow Developer,AI Engineer
+521,CI/CD Docker REST API C++,System Design Engineering,BSc Computer Science,Beginner,AWS CCP CompTIA A+,Software Engineer
+522,SQL Design Patterns Microservices Linux,System Design Software Development,MCA,Advanced,Oracle Java AWS CCP,Software Engineer
+523,YOLO TensorFlow Detectron2 ONNX SLIs/SLOs,Computer Vision,MSc Data Science,Advanced,TensorFlow Developer PyTorch Certified,Computer Vision Engineer
+524,Penetration Testing Python Wireshark,Network Security Ethical Hacking,MCA,Intermediate,CISSP CompTIA Security+,Cybersecurity Analyst
+525,Bash Grafana Kubernetes GitHub Actions,Cloud Infrastructure,BTech IT,Advanced,Terraform Associate AWS SA,DevOps Engineer
+526,MySQL MongoDB PostgreSQL,Microservices Distributed Systems,BSc Computer Science,Intermediate,Spring Professional MongoDB Associate,Backend Developer
+527,Object Detection Pillow ONNX MediaPipe,Image Processing,MCA,Advanced,NVIDIA Deep Learning TensorFlow Developer,Computer Vision Engineer
+528,Python OWASP Network Security Cryptography,Cybersecurity Privacy,Diploma CS,Advanced,CEH CompTIA Security+,Cybersecurity Analyst
+529,REST API Docker MongoDB Java,Microservices,BCA,Intermediate,AWS CCP,Backend Developer
+530,TensorFlow Python HuggingFace LangChain,Natural Language Processing,BTech IT,Intermediate,AWS CCP Google Cloud ML,NLP Engineer
+531,CI/CD Observability SLIs/SLOs Kubernetes,Cloud Operations Automation,MCA,Beginner,Terraform Associate Kubernetes CKA,Site Reliability Engineer
+532,Pandas Google Analytics SQL ETL,Data Analytics Business Intelligence,MSc Data Science,Advanced,IBM Data Analyst,Data Analyst
+533,Python Solidity IPFS DeFi,Decentralization Blockchain,BCA,Beginner,Certified Blockchain Expert,Blockchain Developer
+534,Smart Contracts MetaMask JavaScript IPFS,Decentralization,BSc Computer Science,Advanced,Web3 Developer,Blockchain Developer
+535,Python PyTorch TensorFlow HuggingFace,AI Research,MSc Data Science,Beginner,TensorFlow Developer,AI Engineer
+536,spaCy Transformers Generative AI,AI,BCA,Beginner,HuggingFace Certified TensorFlow Developer,NLP Engineer
+537,Requirements Gathering Process Mapping Excel JIRA,Data Enterprise Systems,BCA,Beginner,PMI-PBA,Business Analyst
+538,Security Docker CloudFormation Networking,Infrastructure,Diploma CS,Advanced,AWS SA Terraform Associate,Cloud Engineer
+539,Spark SQL Power BI,Insights,MSc Data Science,Intermediate,AWS CCP Google Data Analytics,Data Analyst
+540,LangChain BERT FastAPI Transformers,Linguistics,MCA,Advanced,TensorFlow Developer DeepLearning.AI NLP,NLP Engineer
+541,ArgoCD CI/CD Terraform Prometheus,DevOps,BSc Computer Science,Intermediate,Terraform Associate Kubernetes CKA,DevOps Engineer
+542,SQL Jupyter Seaborn,Research,BTech CSE,Intermediate,Azure Fundamentals,Data Scientist
+543,HuggingFace LLMs Vector Databases Generative AI,AI Research,MSc Data Science,Advanced,Google Cloud Associate HuggingFace Certified,AI Engineer
+544,Splunk Python Firewall,Cybersecurity,BTech CSE,Beginner,Cisco CCNA,Cybersecurity Analyst
+545,Python Docker MongoDB,Microservices,MCA,Advanced,Azure Fundamentals,Backend Developer
+546,Firebase App Store Dart iOS,Mobile Development,BCA,Beginner,Google Android Developer Apple iOS Developer,Mobile App Developer
+547,Tableau TensorFlow R Spark,AI,MSc Data Science,Advanced,AWS CCP,Data Scientist
+548,Node.js Java REST API MongoDB,APIs,BE AI,Beginner,Spring Professional MongoDB Associate,Backend Developer
+549,Business Process Agile Use Cases Visio,Enterprise Systems,BCA,Beginner,Tableau Desktop PMI-PBA,Business Analyst
+550,Pillow Detectron2 YOLO,AI Research Robotics,MCA,Advanced,AWS CCP,Computer Vision Engineer
+551,Statistics Power BI Python ETL,Reporting Data Analytics,MCA,Beginner,AWS CCP IBM Data Analyst,Data Analyst
+552,Metasploit Splunk Nmap,Privacy,MCA,Beginner,CISSP,Cybersecurity Analyst
+553,InVision Canva Adobe XD Figma,Design Human-Computer Interaction,MCA,Beginner,Adobe XD Certified Figma Expert,UI/UX Designer
+554,AI Pathfinding HLSL Shader Programming,Game Development 3D Design,BTech CSE,Beginner,AWS GameTech,Game Developer
+555,CSS AWS Node.js,Full Stack Development APIs,BCA,Beginner,AWS CCP,Full Stack Developer
+556,Generative AI TensorFlow LLMs LangChain,AI Research,BTech CSE,Intermediate,HuggingFace Certified Azure AI,AI Engineer
+557,CI/CD GitHub Actions Ansible,Platform Engineering Cloud Infrastructure,BTech CSE,Beginner,Google Cloud DevOps,DevOps Engineer
+558,REST API Linux Data Structures CI/CD,Open Source Engineering,BE AI,Intermediate,Oracle Java,Software Engineer
+559,NumPy TensorFlow Jupyter Scikit-learn Python,Analytics Research,BCA,Intermediate,IBM Data Science Google Cloud Associate,Data Scientist
+560,GraphQL Redis CSS,Startups,BTech CSE,Intermediate,Oracle Java Meta Full Stack,Full Stack Developer
+561,Power BI Visio Excel JIRA,Strategy Data,Diploma CS,Advanced,ITIL Scrum Master,Business Analyst
+562,FastAPI Python TensorFlow,Linguistics,MSc Data Science,Beginner,AWS CCP Google Cloud ML,NLP Engineer
+563,Python Kubeflow Model Deployment TensorFlow ArgoCD,Deep Learning,BE AI,Intermediate,AWS SA,ML Engineer
+564,System Design Python Microservices Data Structures,System Design Problem Solving,BCA,Intermediate,Oracle Java,Software Engineer
+565,OpenGL Unreal Engine Unity Lua,Game Development Interactive Media,MSc Data Science,Intermediate,C++ Institute,Game Developer
+566,NumPy PyTorch Keras CUDA,Computer Vision,BE AI,Beginner,PyTorch Certified,Computer Vision Engineer
+567,iOS Google Play Dart Firebase,UX,MCA,Intermediate,AWS CCP,Mobile App Developer
+568,HTML Jest Vue.js Angular Information Architecture,Web Development,BTech IT,Beginner,JavaScript Algorithms Meta Frontend,Frontend Developer
+569,CloudFormation Google Cloud Terraform IAM,Networking Scalability,Diploma CS,Advanced,Google Cloud Associate,Cloud Engineer
+570,Jest CSS Tailwind CSS GraphQL CloudFormation,User Experience UI Design,Diploma CS,Intermediate,Google UX Design,Frontend Developer
+571,PostgreSQL Docker REST API TypeScript,Cloud,MCA,Intermediate,Azure Fundamentals Meta Full Stack,Full Stack Developer
+572,HTML Docker TypeScript PostgreSQL,Web Apps,MCA,Advanced,MongoDB Associate,Full Stack Developer
+573,YOLO MediaPipe Keras,Image Processing Computer Vision,MSc Data Science,Beginner,AWS CCP,Computer Vision Engineer
+574,Algorithms Design Patterns Linux Unit Testing User Stories,Problem Solving,MSc Data Science,Beginner,Google Cloud Associate CompTIA A+,Software Engineer
+575,TensorFlow Transformers Prompt Engineering Python,Conversational AI,BE AI,Intermediate,Azure AI,AI Engineer
+576,Vector Databases FastAPI LLMs,LLMs Conversational AI,BE AI,Beginner,HuggingFace Certified TensorFlow Developer,AI Engineer
+577,Text Classification Generative AI Transformers,AI Conversational AI,MCA,Advanced,DeepLearning.AI NLP AWS CCP,NLP Engineer
+578,Python Prompt Engineering Transformers HuggingFace,AI Research Conversational AI,MCA,Intermediate,Azure AI,AI Engineer
+579,FastAPI LangChain PyTorch Prompt Engineering,Generative AI LLMs,BTech IT,Beginner,Azure AI,AI Engineer
+580,Docker Kubernetes GitHub Actions AWS,Automation,BSc Computer Science,Beginner,AWS SA Kubernetes CKA,DevOps Engineer
+581,PyTorch CNNs Image Segmentation Detectron2,Image Processing,MCA,Advanced,Google Cloud ML,Computer Vision Engineer
+582,Power BI SQL NumPy Statistics,Research Statistics,BSc Computer Science,Intermediate,IBM Data Science,Data Scientist
+583,Git Algorithms Data Structures Python,Software Development Engineering,BTech IT,Advanced,CompTIA A+ RedHat RHCSA,Software Engineer
+584,CI/CD Jenkins Grafana GitHub Actions,Cloud Infrastructure Platform Engineering,BTech IT,Intermediate,RedHat RHCSA,DevOps Engineer
+585,Android Studio Firebase REST API App Store,Cross-platform Apps,BTech CSE,Beginner,AWS CCP,Mobile App Developer
+586,DeFi Truffle Cryptography Ethereum,Cryptography Blockchain,BTech IT,Beginner,Web3 Developer Solidity Developer,Blockchain Developer
+587,SQL R Spark Python Bash,Reporting Visualization,BE AI,Beginner,Power BI Associate,Data Analyst
+588,Redis AWS Docker HTML TypeScript,Full Stack Development,BTech IT,Advanced,Oracle Java Azure Fundamentals,Full Stack Developer
+589,RDS Google Cloud CDN,Infrastructure,Diploma CS,Beginner,AWS SA,Cloud Engineer
+590,Kubernetes AWS Grafana Ansible,Automation,BTech CSE,Advanced,Terraform Associate,Site Reliability Engineer
+591,R SQL Data Visualization,Business Intelligence Insights,MSc Data Science,Beginner,Google Data Analytics,Data Analyst
+592,AWS Terraform Docker,Cloud Computing,BCA,Advanced,AWS SA,Cloud Engineer
+593,Ethereum MetaMask Hardhat Python,Decentralization,BSc Computer Science,Beginner,Hyperledger,Blockchain Developer
+594,SQL Statistics ETL,Business Intelligence Visualization,BCA,Advanced,Google Data Analytics IBM Data Analyst,Data Analyst
+595,SQL User Stories Notion Figma,Tech Leadership,BCA,Intermediate,AWS CCP,Product Manager
+596,Use Cases Business Process Process Mapping BPMN,Process Improvement Data,BSc Computer Science,Beginner,CBAP ITIL,Business Analyst
+597,Xcode Android Studio Kotlin,Mobile Development,BTech CSE,Intermediate,Flutter Certified,Mobile App Developer
+598,Pandas TensorFlow Python PyTorch,Model Deployment AI Systems,MSc Data Science,Advanced,AWS SageMaker,ML Engineer
+599,Prompt Engineering FastAPI PyTorch HuggingFace,Generative AI Conversational AI,MSc Data Science,Beginner,Google Cloud Associate,AI Engineer
+600,Kotlin SQLite Flutter Xcode,UX,Diploma CS,Beginner,Google Android Developer Firebase,Mobile App Developer
+601,Python Docker Linux Bash,DevOps,BSc Computer Science,Advanced,Kubernetes CKA,Site Reliability Engineer
+602,Scikit-learn Spark Matplotlib TensorFlow,Data Science,BSc Computer Science,Beginner,Google Cloud Associate Azure Fundamentals,Data Scientist
+603,Scikit-learn MLflow AWS SageMaker,MLOps Deep Learning,MCA,Intermediate,AWS SageMaker Azure ML,ML Engineer
+604,MediaPipe OpenCV Detectron2 YOLO,Deep Learning,MSc Data Science,Intermediate,Google Cloud ML PyTorch Certified,Computer Vision Engineer
+605,HTML Prototyping Sketch,Product Design,Diploma CS,Intermediate,Interaction Design HCI Certificate,UI/UX Designer
+606,Ansible AWS Linux,DevOps Platform Engineering,BSc Computer Science,Beginner,Terraform Associate,DevOps Engineer
+607,Transformers LLMs PyTorch Vector Databases,Generative AI Conversational AI,MCA,Beginner,TensorFlow Developer Google Cloud Associate,AI Engineer
+608,Bash Linux CI/CD Ansible,Automation Cloud Operations,BCA,Intermediate,RedHat RHCSA,Site Reliability Engineer
+609,Bash Observability Kubernetes,Cloud Operations,BSc Computer Science,Beginner,Terraform Associate,Site Reliability Engineer
+610,Figma JavaScript Vue.js REST API Truffle,User Experience Web Development,BSc Computer Science,Intermediate,Meta Frontend,Frontend Developer
+611,Spark PostgreSQL Statistics Databricks,Business Intelligence,BTech CSE,Beginner,AWS CCP,Data Analyst
+612,Webpack JavaScript Figma Tailwind CSS,JavaScript Ecosystem,BTech IT,Beginner,Google UX Design AWS CCP,Frontend Developer
+613,CSS Express.js MongoDB,Web Apps,BCA,Intermediate,Oracle Java,Full Stack Developer
+614,Python Prometheus Ansible,Cloud Operations,BTech CSE,Beginner,Google Cloud SRE,Site Reliability Engineer
+615,Agile Market Research Figma,Tech Leadership,BE AI,Advanced,Google PM Certificate AWS CCP,Product Manager
+616,Dart Firebase iOS Push Notifications,iOS Android,Diploma CS,Advanced,AWS CCP,Mobile App Developer
+617,Linux Java Python Git,Software Development,BE AI,Intermediate,Google Cloud Associate,Software Engineer
+618,NumPy ONNX Object Detection Keras,Computer Vision,Diploma CS,Beginner,TensorFlow Developer AWS CCP,Computer Vision Engineer
+619,Scikit-learn Pandas FastAPI,MLOps Deep Learning,BTech IT,Advanced,Google Cloud ML AWS SageMaker,ML Engineer
+620,Power BI Seaborn Jupyter,Statistics,MSc Data Science,Advanced,AWS CCP Azure Fundamentals,Data Scientist
+621,R ETL Google Analytics Tableau,Business Intelligence,BTech IT,Beginner,Google Data Analytics Tableau Desktop,Data Analyst
+622,iOS Firebase Push Notifications Android,Cross-platform Apps Mobile Development,MCA,Advanced,Google Android Developer AWS CCP,Mobile App Developer
+623,Ansible SLIs/SLOs Chaos Engineering,Cloud Operations Automation,BSc Computer Science,Intermediate,Kubernetes CKA,Site Reliability Engineer
+624,React Native Google Play iOS Android Studio,UX,BCA,Intermediate,AWS CCP,Mobile App Developer
+625,TensorFlow Transformers PyTorch RAG,Generative AI,BTech IT,Intermediate,AWS CCP Google Cloud Associate,AI Engineer
+626,Python IDS/IPS OWASP SIEM,Cybersecurity,Diploma CS,Advanced,CISSP,Cybersecurity Analyst
+627,Figma Angular Redux Webpack,JavaScript Ecosystem User Experience,BCA,Beginner,Google UX Design,Frontend Developer
+628,Solidity MetaMask Python Web3.js,DeFi Web3,BE AI,Intermediate,Web3 Developer Certified Blockchain Expert,Blockchain Developer
+629,Statistics Python Google Analytics PostgreSQL,Business Intelligence Visualization,BCA,Advanced,Power BI Associate,Data Analyst
+630,C# Game Design Multiplayer Networking Physics Engine,Graphics Simulation,BTech IT,Advanced,C++ Institute,Game Developer
+631,Kafka Spring Boot Microservices MySQL,APIs Backend Systems,MCA,Beginner,Oracle Java,Backend Developer
+632,Spark Kubeflow Pandas Docker,AI Systems Machine Learning,MCA,Intermediate,AWS SA AWS SageMaker,ML Engineer
+633,SQL Notion OKRs,Business User Research,BCA,Intermediate,PMP,Product Manager
+634,Bash Ansible Incident Management,Observability Reliability Engineering,BCA,Intermediate,Terraform Associate Google Cloud SRE,Site Reliability Engineer
+635,Java System Design CI/CD Design Patterns,Software Development Engineering,BE AI,Advanced,AWS CCP CompTIA A+,Software Engineer
+636,C++ Lua Unreal Engine C#,Simulation,BCA,Beginner,Unreal Engine Cert,Game Developer
+637,Market Research JIRA Scrum Stakeholder Management,Product Strategy,MSc Data Science,Intermediate,Google PM Certificate,Product Manager
+638,InVision Figma Prototyping,Product Design Visual Design,Diploma CS,Advanced,HCI Certificate Figma Expert,UI/UX Designer
+639,Docker Data Structures Design Patterns,Software Development,MCA,Beginner,CompTIA A+,Software Engineer
+640,Agile JIRA Requirements Gathering Tableau,Enterprise Systems,BTech CSE,Advanced,ITIL,Business Analyst
+641,MLflow Spark Docker Kafka,Machine Learning,BE AI,Advanced,Google Cloud ML,ML Engineer
+642,Prometheus ArgoCD Bash CI/CD,Automation Cloud Infrastructure,BE AI,Intermediate,Google Cloud DevOps,DevOps Engineer
+643,Data Analysis Excel Use Cases BPMN Penetration Testing,Data,BTech IT,Intermediate,PMI-PBA Tableau Desktop,Business Analyst
+644,Kotlin Firebase React Native Push Notifications,UX Cross-platform Apps,BCA,Advanced,Firebase AWS CCP,Mobile App Developer
+645,Google Play Flutter Swift iOS,Android,BE AI,Intermediate,AWS CCP,Mobile App Developer
+646,C++ Unit Testing CI/CD Linux CI/CD,Software Development Open Source,MCA,Advanced,RedHat RHCSA Oracle Java,Software Engineer
+647,TypeScript REST API Redux Vue.js,User Experience UI Design,BTech CSE,Intermediate,Meta Frontend AWS CCP,Frontend Developer
+648,GitHub Actions Grafana Kubernetes Python,DevOps,BSc Computer Science,Beginner,Google Cloud DevOps RedHat RHCSA,DevOps Engineer
+649,DeFi Cryptography MetaMask,Blockchain Web3,BTech CSE,Advanced,Solidity Developer Certified Blockchain Expert,Blockchain Developer
+650,Kafka Java Docker MongoDB,APIs,BTech IT,Advanced,Oracle Java MongoDB Associate,Backend Developer
+651,Sketch User Research Adobe XD Information Architecture,Human-Computer Interaction,BTech CSE,Intermediate,Google UX Design,UI/UX Designer
+652,Dart Firebase Kotlin,UX Cross-platform Apps,BTech CSE,Advanced,AWS CCP Firebase,Mobile App Developer
+653,Linux Grafana CI/CD Kubernetes,Reliability Engineering Automation,BTech IT,Beginner,Terraform Associate,Site Reliability Engineer
+654,MongoDB HTML Redis PostgreSQL,Cloud APIs,BCA,Beginner,AWS CCP Azure Fundamentals,Full Stack Developer
+655,HTML Sketch Information Architecture User Research,Human-Computer Interaction,MCA,Beginner,Figma Expert,UI/UX Designer
+656,Pillow CNNs Python PyTorch,Deep Learning Computer Vision,BTech IT,Intermediate,AWS CCP,Computer Vision Engineer
+657,Lambda Linux Networking IAM,Cloud Computing,BTech CSE,Beginner,Azure Fundamentals,Cloud Engineer
+658,Tableau R SQL Python,Analytics AI,MCA,Intermediate,TensorFlow Developer Azure Fundamentals,Data Scientist
+659,Incident Management Kubernetes Docker,DevOps Cloud Operations,BTech CSE,Advanced,Kubernetes CKA,Site Reliability Engineer
+660,Kafka Microservices GraphQL MySQL,APIs,BCA,Beginner,MongoDB Associate,Backend Developer
+661,MetaMask Solidity Rust Python GitHub Actions,Web3,BSc Computer Science,Beginner,Ethereum Developer Certified Blockchain Expert,Blockchain Developer
+662,Grafana CI/CD Terraform Docker Android,DevOps,BTech CSE,Advanced,Kubernetes CKA Google Cloud SRE,Site Reliability Engineer
+663,GraphQL Angular Next.js Tailwind CSS,User Experience JavaScript Ecosystem,BTech CSE,Beginner,JavaScript Algorithms,Frontend Developer
+664,Sketch User Research Information Architecture Zeplin,User Experience Human-Computer Interaction,Diploma CS,Beginner,Adobe XD Certified,UI/UX Designer
+665,IPFS Ethereum Solidity Chainlink,Cryptography,BTech IT,Advanced,Certified Blockchain Expert Web3 Developer,Blockchain Developer
+666,C++ Shader Programming Python,Graphics,BCA,Advanced,C++ Institute AWS GameTech,Game Developer
+667,Spring Boot Express.js Docker MongoDB,APIs,BTech IT,Intermediate,Spring Professional,Backend Developer
+668,Jest Tailwind CSS Redux,User Experience,BE AI,Advanced,Azure Fundamentals Meta Frontend,Frontend Developer
+669,CUDA TensorFlow ONNX,AI Research Deep Learning,BE AI,Intermediate,PyTorch Certified TensorFlow Developer,Computer Vision Engineer
+670,SQL TensorFlow Python R,Data Science Machine Learning,BTech CSE,Advanced,AWS CCP,Data Scientist
+671,Flutter Xcode iOS App Store,Mobile Development Android,BE AI,Advanced,AWS CCP Google Android Developer,Mobile App Developer
+672,SQL Confluence JIRA Power BI,Data,BTech IT,Advanced,Scrum Master PMI-PBA,Business Analyst
+673,Scikit-learn Kubeflow MLflow Model Deployment,MLOps,MCA,Intermediate,Azure ML,ML Engineer
+674,PyTorch MediaPipe ONNX TensorFlow Docker,Deep Learning,BE AI,Beginner,PyTorch Certified NVIDIA Deep Learning,Computer Vision Engineer
+675,Kotlin REST API Xcode,Mobile Development,Diploma CS,Intermediate,Google Android Developer,Mobile App Developer
+676,Accessibility Information Architecture InVision Figma,Design,BSc Computer Science,Beginner,Google UX Design,UI/UX Designer
+677,Feature Engineering Kubeflow Kafka TensorFlow,MLOps,BSc Computer Science,Beginner,Google Cloud ML Azure ML,ML Engineer
+678,AWS PostgreSQL Redis,Full Stack Development,MCA,Beginner,Oracle Java AWS CCP,Full Stack Developer
+679,Python BERT PyTorch FastAPI,AI Linguistics,BE AI,Advanced,Google Cloud ML,NLP Engineer
+680,Ethereum Truffle Hardhat Chainlink PostgreSQL,DeFi,BTech IT,Beginner,Hyperledger,Blockchain Developer
+681,Node.js Kafka MySQL Microservices,Databases,BCA,Intermediate,Azure Fundamentals,Backend Developer
+682,Unit Testing System Design Algorithms,System Design,BCA,Intermediate,RedHat RHCSA,Software Engineer
+683,Transformers FastAPI LangChain RAG,LLMs Generative AI,BE AI,Beginner,Google Cloud Associate Azure AI,AI Engineer
+684,Object Detection Pillow Image Segmentation CUDA,Image Processing,BTech IT,Intermediate,PyTorch Certified NVIDIA Deep Learning,Computer Vision Engineer
+685,REST API Design Patterns SQL Docker,System Design,BTech IT,Beginner,CompTIA A+ RedHat RHCSA,Software Engineer
+686,Chainlink Ethereum Solidity Hardhat,DeFi,BCA,Intermediate,Hyperledger,Blockchain Developer
+687,Python Sentiment Analysis Transformers HuggingFace,Natural Language Processing Text Analytics,BTech CSE,Advanced,Google Cloud ML,NLP Engineer
+688,CSS MongoDB ReactJS Git,Full Stack Development,BTech CSE,Advanced,Oracle Java Meta Full Stack,Full Stack Developer
+689,HuggingFace LLMs Vector Databases Generative AI,AI Products Conversational AI,BTech CSE,Intermediate,AWS CCP,AI Engineer
+690,Helm Docker Bash,CI/CD Platform Engineering,Diploma CS,Advanced,RedHat RHCSA Terraform Associate,DevOps Engineer
+691,Wireshark Penetration Testing Linux Metasploit,Privacy,BTech IT,Intermediate,CompTIA CySA+,Cybersecurity Analyst
+692,TensorFlow Feature Engineering Kafka FastAPI,MLOps Deep Learning,BE AI,Advanced,AWS SageMaker Google Cloud ML,ML Engineer
+693,Prompt Engineering PyTorch Python OpenAI API Node.js,AI Research,BE AI,Advanced,Google Cloud Associate,AI Engineer
+694,BPMN SQL Power BI,Enterprise Systems,BSc Computer Science,Beginner,Scrum Master,Business Analyst
+695,JIRA Visio Requirements Gathering Process Mapping,Strategy Data,BTech IT,Intermediate,Tableau Desktop CBAP,Business Analyst
+696,Visio Tableau SQL Agile,Enterprise Systems Business Analysis,MCA,Advanced,CBAP Tableau Desktop,Business Analyst
+697,Scikit-learn Model Deployment AWS SageMaker Spark,Deep Learning,BTech IT,Advanced,Azure ML AWS SageMaker,ML Engineer
+698,User Research Design Systems Usability Testing Figma,User Experience,BTech IT,Beginner,Google UX Design HCI Certificate,UI/UX Designer
+699,Incident Response Vulnerability Assessment OWASP Penetration Testing Stakeholder Management,Privacy,Diploma CS,Beginner,CISSP,Cybersecurity Analyst
+700,HLSL Unreal Engine AI Pathfinding C#,3D Design Interactive Media,BSc Computer Science,Advanced,Unity Certified,Game Developer
+701,CloudFormation AWS Terraform Kubernetes,Scalability DevOps,BE AI,Advanced,Azure Fundamentals AWS SA,Cloud Engineer
+702,Linux Python Wireshark,Ethical Hacking,BSc Computer Science,Beginner,CEH,Cybersecurity Analyst
+703,Process Mapping Confluence Excel Power BI GraphQL,Business Analysis Data,BSc Computer Science,Intermediate,CBAP,Business Analyst
+704,LLMs PyTorch FastAPI Generative AI,AI Natural Language Processing,BTech IT,Intermediate,Google Cloud ML,NLP Engineer
+705,NumPy PyTorch FastAPI Feature Engineering,Deep Learning Machine Learning,BE AI,Beginner,Azure ML AWS SA,ML Engineer
+706,Java FastAPI Microservices Express.js RDS,APIs Backend Systems,BCA,Intermediate,Azure Fundamentals,Backend Developer
+707,Python Incident Response Metasploit Linux,Ethical Hacking Cybersecurity,MCA,Intermediate,CompTIA Security+ CompTIA CySA+,Cybersecurity Analyst
+708,Rust NFT MetaMask DeFi,DeFi Cryptography,MCA,Beginner,Certified Blockchain Expert,Blockchain Developer
+709,Jest Figma GraphQL REST API,UI Design,BCA,Intermediate,AWS CCP Azure Fundamentals,Frontend Developer
+710,Information Architecture Canva Sketch InVision Matplotlib,Design,BTech IT,Intermediate,HCI Certificate,UI/UX Designer
+711,iOS Kotlin App Store,Android Mobile Development,BCA,Advanced,Flutter Certified,Mobile App Developer
+712,REST API Firebase App Store iOS,UX Android,BTech IT,Intermediate,AWS CCP Apple iOS Developer,Mobile App Developer
+713,HuggingFace Vector Databases TensorFlow RAG,AI Products Generative AI,BTech IT,Beginner,Azure AI,AI Engineer
+714,Unreal Engine Physics Engine Python,Simulation Game Development,Diploma CS,Beginner,AWS GameTech,Game Developer
+715,Next.js CSS Redux GraphQL,User Experience Web Performance,BCA,Beginner,Meta Frontend JavaScript Algorithms,Frontend Developer
+716,Multiplayer Networking 3D Modeling Blender Lua,3D Design,BTech CSE,Beginner,Google Play Academy C++ Institute,Game Developer
+717,Agile Process Mapping Power BI Data Analysis,Enterprise Systems,BCA,Advanced,PMI-PBA ITIL,Business Analyst
+718,MongoDB Next.js TypeScript REST API,Web Apps Full Stack Development,BCA,Advanced,Meta Full Stack,Full Stack Developer
+719,Jest REST API Webpack JavaScript,UI Design Web Development,Diploma CS,Beginner,AWS CCP,Frontend Developer
+720,Stakeholder Management Scrum Figma,Business,MCA,Beginner,Scrum Master,Product Manager
+721,Smart Contracts JavaScript Python Rust Generative AI,DeFi,BTech IT,Advanced,Solidity Developer,Blockchain Developer
+722,GitHub Actions Linux CI/CD,Cloud Infrastructure,BTech IT,Beginner,Terraform Associate,DevOps Engineer
+723,Ansible Observability Docker,Reliability Engineering Cloud Operations,BTech CSE,Beginner,Terraform Associate Google Cloud SRE,Site Reliability Engineer
+724,FastAPI AWS SageMaker PyTorch Feature Engineering,AI Systems,BTech IT,Beginner,Google Cloud ML,ML Engineer
+725,AWS SLIs/SLOs Observability,Automation,BTech IT,Beginner,RedHat RHCSA,Site Reliability Engineer
+726,PyTorch Scikit-learn Kubeflow TensorFlow,Model Deployment,BTech CSE,Advanced,Google Cloud ML,ML Engineer
+727,Pandas PostgreSQL Google Analytics ETL GitHub Actions,Visualization Insights,MCA,Beginner,Tableau Desktop IBM Data Analyst,Data Analyst
+728,Chainlink JavaScript Truffle,Web3 Decentralization,BSc Computer Science,Intermediate,Web3 Developer Certified Blockchain Expert,Blockchain Developer
+729,Pandas TensorFlow Model Deployment Docker,Deep Learning,BTech CSE,Intermediate,TensorFlow Developer,ML Engineer
+730,TensorFlow Jupyter Scikit-learn Statistics,AI Research,MCA,Intermediate,Google Cloud Associate,Data Scientist
+731,CNNs ONNX PyTorch,Deep Learning,MSc Data Science,Beginner,PyTorch Certified AWS CCP,Computer Vision Engineer
+732,DeFi Ethereum Rust Truffle,Blockchain,BCA,Advanced,Solidity Developer,Blockchain Developer
+733,Tailwind CSS Webpack REST API GraphQL,UI Design Web Performance,Diploma CS,Intermediate,Meta Frontend,Frontend Developer
+734,React Native REST API Swift Dart,iOS Mobile Development,MCA,Beginner,AWS CCP Apple iOS Developer,Mobile App Developer
+735,Statistics SQL Google Analytics,Data Analytics Insights,MCA,Advanced,Power BI Associate IBM Data Analyst,Data Analyst
+736,Scikit-learn Pandas Seaborn PyTorch,Statistics,BE AI,Intermediate,Google Cloud Associate,Data Scientist
+737,GitHub Actions Jenkins Kubernetes,DevOps,BE AI,Beginner,AWS SA,DevOps Engineer
+738,CI/CD Docker Python,Software Development Problem Solving,MCA,Beginner,Google Cloud Associate RedHat RHCSA,Software Engineer
+739,HTML Angular Redux Next.js,UI Design User Experience,BTech CSE,Advanced,JavaScript Algorithms,Frontend Developer
+740,Docker PostgreSQL TypeScript AWS,Full Stack Development,MCA,Advanced,MongoDB Associate,Full Stack Developer
+741,OpenAI API RAG LLMs,Conversational AI,BTech CSE,Advanced,HuggingFace Certified,AI Engineer
+742,Prototyping HTML Adobe XD User Research,Human-Computer Interaction Visual Design,BSc Computer Science,Beginner,Adobe XD Certified,UI/UX Designer
+743,SQL Product Analytics Figma Stakeholder Management,Agile Product Strategy,BTech IT,Advanced,AWS CCP PMP,Product Manager
+744,Penetration Testing Splunk Network Security Python,Cybersecurity Privacy,MCA,Intermediate,CEH CompTIA CySA+,Cybersecurity Analyst
+745,Data Structures C++ SQL Docker,Software Development Engineering,BTech CSE,Beginner,RedHat RHCSA Oracle Java,Software Engineer
+746,CUDA YOLO Keras ONNX Excel,Computer Vision AI Research,BTech CSE,Beginner,TensorFlow Developer,Computer Vision Engineer
+747,Agile Requirements Gathering Power BI,Process Improvement Strategy,BCA,Beginner,ITIL PMI-PBA,Business Analyst
+748,Unit Testing Algorithms Design Patterns REST API Ansible,Software Development,BE AI,Intermediate,Oracle Java CompTIA A+,Software Engineer
+749,GitHub Actions Docker ArgoCD Ansible,DevOps,MCA,Intermediate,RedHat RHCSA,DevOps Engineer
+750,Chainlink Ethereum Web3.js,Cryptography Blockchain,BTech IT,Intermediate,Ethereum Developer,Blockchain Developer
+751,Angular Webpack JavaScript CSS,Web Development,BCA,Intermediate,Meta Frontend JavaScript Algorithms,Frontend Developer
+752,Truffle Hardhat NFT Solidity,DeFi Cryptography,BCA,Advanced,Hyperledger,Blockchain Developer
+753,Generative AI BERT NER Transformers,Natural Language Processing Linguistics,MCA,Intermediate,TensorFlow Developer,NLP Engineer
+754,Unreal Engine OpenGL Lua 3D Modeling ETL,Interactive Media,Diploma CS,Intermediate,Google Play Academy AWS GameTech,Game Developer
+755,Prometheus Ansible Docker Linux,Cloud Operations,Diploma CS,Intermediate,AWS SA,Site Reliability Engineer
+756,IDS/IPS SIEM Python OWASP,Threat Intelligence Ethical Hacking,Diploma CS,Beginner,CEH Cisco CCNA,Cybersecurity Analyst
+757,Data Visualization Python SQL R Information Architecture,Visualization,BTech CSE,Beginner,Tableau Desktop Power BI Associate,Data Analyst
+758,Notion Confluence Stakeholder Management Market Research,User Research,BTech IT,Intermediate,CSPO,Product Manager
+759,Grafana Docker Chaos Engineering Bash Multiplayer Networking,Cloud Operations Reliability Engineering,MSc Data Science,Advanced,Kubernetes CKA Terraform Associate,Site Reliability Engineer
+760,Node.js FastAPI Kafka MySQL,APIs Distributed Systems,BCA,Intermediate,Azure Fundamentals,Backend Developer
+761,Xcode REST API SQLite Swift,Mobile Development iOS,BCA,Advanced,Flutter Certified AWS CCP,Mobile App Developer
+762,Usability Testing Canva HTML,Design User Experience,BTech CSE,Beginner,Adobe XD Certified Figma Expert,UI/UX Designer
+763,Process Mapping Use Cases SQL Stakeholder Management Excel,Business Analysis,BCA,Intermediate,Scrum Master,Business Analyst
+764,LLMs PyTorch Python,AI Research,MCA,Beginner,AWS CCP,AI Engineer
+765,Generative AI LLMs Python FastAPI,Generative AI,BTech IT,Beginner,AWS CCP,AI Engineer
+766,Confluence Stakeholder Management Product Analytics,User Research,BTech IT,Beginner,AWS CCP Google PM Certificate,Product Manager
+767,Pandas TensorFlow Docker,AI Systems,MCA,Beginner,Azure ML,ML Engineer
+768,Wireframing InVision Adobe XD Design Systems,Human-Computer Interaction Visual Design,BCA,Intermediate,Interaction Design Adobe XD Certified,UI/UX Designer
+769,IPFS Rust Solidity Chainlink Unreal Engine,Decentralization,MCA,Beginner,Web3 Developer Certified Blockchain Expert,Blockchain Developer
+770,NumPy Feature Engineering Model Deployment Scikit-learn Ansible,Deep Learning Machine Learning,MSc Data Science,Intermediate,Azure ML AWS SageMaker,ML Engineer
+771,PyTorch HuggingFace NER TensorFlow Canva,Conversational AI Linguistics,BTech IT,Advanced,HuggingFace Certified AWS CCP,NLP Engineer
+772,SLIs/SLOs Grafana Ansible Chaos Engineering,Reliability Engineering,BTech IT,Beginner,AWS SA,Site Reliability Engineer
+773,Webpack Redux TypeScript CSS,UI Design,BE AI,Intermediate,AWS CCP,Frontend Developer
+774,TensorFlow Python Kafka Model Deployment,Deep Learning Machine Learning,Diploma CS,Beginner,Azure ML AWS SageMaker,ML Engineer
+775,Angular Vue.js CSS REST API,User Experience JavaScript Ecosystem,BTech IT,Intermediate,AWS CCP,Frontend Developer
+776,Prometheus Python GitHub Actions,DevOps,MCA,Advanced,Kubernetes CKA,DevOps Engineer
+777,Docker RDS CDN Security AWS,Infrastructure DevOps,BSc Computer Science,Intermediate,AWS SA AWS CCP,Cloud Engineer
+778,Java CI/CD Git,Software Development System Design,MSc Data Science,Intermediate,Google Cloud Associate AWS CCP,Software Engineer
+779,NumPy TensorFlow Pandas Seaborn,Statistics Analytics,BTech CSE,Advanced,Google Cloud Associate TensorFlow Developer,Data Scientist
+780,Roadmapping A/B Testing Notion Agile,Tech Leadership,Diploma CS,Advanced,Scrum Master,Product Manager
+781,Helm CI/CD ArgoCD,DevOps CI/CD,BSc Computer Science,Beginner,RedHat RHCSA Kubernetes CKA,DevOps Engineer
+782,Python SQL R Google Analytics,Visualization Insights,MSc Data Science,Beginner,Google Data Analytics,Data Analyst
+783,Tableau SQL Seaborn Jupyter,Analytics,BE AI,Intermediate,Azure Fundamentals,Data Scientist
+784,Stakeholder Management JIRA Scrum,User Research Agile,BTech CSE,Beginner,PMP,Product Manager
+785,Kotlin Firebase Android Studio,iOS,BTech IT,Beginner,Flutter Certified,Mobile App Developer
+786,Node.js Kafka Microservices PostgreSQL Kubeflow,Microservices,BTech CSE,Advanced,Oracle Java,Backend Developer
+787,Physics Engine Python AI Pathfinding HLSL,Interactive Media Simulation,MSc Data Science,Advanced,Google Play Academy,Game Developer
+788,Terraform IAM Networking,Infrastructure,BSc Computer Science,Intermediate,Google Cloud Associate,Cloud Engineer
+789,Microservices Docker Data Structures Algorithms,Open Source,BCA,Beginner,RedHat RHCSA,Software Engineer
+790,Object Detection OpenCV Python,Deep Learning Robotics,BTech CSE,Beginner,PyTorch Certified Google Cloud ML,Computer Vision Engineer
+791,Observability Terraform Ansible,DevOps,Diploma CS,Advanced,Google Cloud SRE,Site Reliability Engineer
+792,Unity Game Design 3D Modeling HLSL Google Play,Game Development,BSc Computer Science,Intermediate,Unity Certified Google Play Academy,Game Developer
+793,Pillow NumPy YOLO Keras,AI Research Deep Learning,MCA,Intermediate,NVIDIA Deep Learning,Computer Vision Engineer
+794,Terraform Helm Prometheus,Platform Engineering,BSc Computer Science,Intermediate,Google Cloud DevOps,DevOps Engineer
+795,Power BI Looker ETL,Reporting,BCA,Intermediate,AWS CCP,Data Analyst
+796,FastAPI Python Transformers LLMs,AI Research LLMs,BTech IT,Beginner,Azure AI Google Cloud Associate,AI Engineer
+797,Product Analytics JIRA User Stories Notion,Agile Tech Leadership,BTech IT,Advanced,Scrum Master,Product Manager
+798,Microservices Redis MongoDB Kafka PyTorch,Microservices,BTech CSE,Advanced,Azure Fundamentals Oracle Java,Backend Developer
+799,AI Pathfinding Multiplayer Networking HLSL,Interactive Media,BSc Computer Science,Intermediate,Google Play Academy,Game Developer
+800,Figma A/B Testing Market Research,User Research Agile,MSc Data Science,Intermediate,Google PM Certificate CSPO,Product Manager
+801,spaCy Text Classification Python Transformers,AI,BTech CSE,Beginner,AWS CCP,NLP Engineer
+802,Python JavaScript DeFi IPFS,Cryptography,BTech CSE,Advanced,Web3 Developer,Blockchain Developer
+803,Cryptography Ethereum MetaMask Smart Contracts,Decentralization,BSc Computer Science,Advanced,Certified Blockchain Expert Solidity Developer,Blockchain Developer
+804,Statistics SQL PyTorch Power BI YOLO,Statistics,BTech CSE,Advanced,Azure Fundamentals,Data Scientist
+805,LLMs PyTorch NLTK HuggingFace,AI,BTech IT,Beginner,Google Cloud ML HuggingFace Certified,NLP Engineer
+806,GraphQL MySQL Redis PostgreSQL,Microservices,BCA,Intermediate,Oracle Java Spring Professional,Backend Developer
+807,Linux SIEM Firewall Python,Privacy,BTech CSE,Intermediate,CompTIA CySA+ Cisco CCNA,Cybersecurity Analyst
+808,Transformers Generative AI Python,Natural Language Processing,BTech IT,Intermediate,AWS CCP HuggingFace Certified,NLP Engineer
+809,Keras TensorFlow Pillow,Deep Learning Computer Vision,BTech CSE,Beginner,Google Cloud ML PyTorch Certified,Computer Vision Engineer
+810,Pillow MediaPipe Image Segmentation YOLO,Image Processing,BTech IT,Beginner,PyTorch Certified,Computer Vision Engineer
+811,Use Cases BPMN Stakeholder Management Process Mapping,Process Improvement Data,BTech IT,Beginner,ITIL Scrum Master,Business Analyst
+812,Shader Programming Game Design Multiplayer Networking Blender Ansible,3D Design Interactive Media,BCA,Beginner,AWS GameTech,Game Developer
+813,SLIs/SLOs Ansible Grafana Python,DevOps Reliability Engineering,Diploma CS,Intermediate,Kubernetes CKA,Site Reliability Engineer
+814,3D Modeling Unreal Engine C++ Lua Firewall,Game Development,BSc Computer Science,Beginner,Google Play Academy,Game Developer
+815,LLMs LangChain Generative AI,Natural Language Processing AI,BTech IT,Intermediate,DeepLearning.AI NLP HuggingFace Certified,NLP Engineer
+816,Requirements Gathering Excel Business Process,Strategy Enterprise Systems,MCA,Intermediate,Scrum Master,Business Analyst
+817,LLMs OpenAI API LangChain PyTorch,AI Products Conversational AI,BTech IT,Advanced,Google Cloud Associate,AI Engineer
+818,Solidity Rust Ethereum JavaScript,Decentralization,BTech CSE,Advanced,Hyperledger,Blockchain Developer
+819,Data Structures Unit Testing CI/CD Algorithms Databricks,Engineering,BSc Computer Science,Intermediate,Oracle Java,Software Engineer
+820,Pandas Seaborn Spark Tableau,Statistics,BSc Computer Science,Advanced,AWS CCP,Data Scientist
+821,Firebase Xcode Dart Kotlin Firewall,UX iOS,MCA,Intermediate,Flutter Certified Firebase,Mobile App Developer
+822,REST API Docker PostgreSQL Node.js,APIs,BCA,Intermediate,Azure Fundamentals,Full Stack Developer
+823,Market Research Scrum A/B Testing OKRs HLSL,Business,BSc Computer Science,Advanced,Scrum Master PMP,Product Manager
+824,Canva Information Architecture Accessibility,Human-Computer Interaction Product Design,Diploma CS,Intermediate,Figma Expert Google UX Design,UI/UX Designer
+825,NumPy MediaPipe Python YOLO Terraform,Image Processing AI Research,BTech CSE,Advanced,NVIDIA Deep Learning TensorFlow Developer,Computer Vision Engineer
+826,AWS Lambda Linux Azure,Scalability Cloud Computing,BE AI,Beginner,AWS CCP Google Cloud Associate,Cloud Engineer
+827,RDS Networking Linux IAM,DevOps Infrastructure,BTech IT,Advanced,AWS SA,Cloud Engineer
+828,NumPy TensorFlow Model Deployment Docker Tableau,AI Systems,BTech CSE,Beginner,TensorFlow Developer,ML Engineer
+829,Looker Statistics ETL Databricks,Data Analytics Insights,MCA,Beginner,IBM Data Analyst,Data Analyst
+830,PyTorch OpenCV Pillow CUDA,AI Research,Diploma CS,Intermediate,AWS CCP,Computer Vision Engineer
+831,Requirements Gathering Use Cases Agile Stakeholder Management GitHub Actions,Strategy Business Analysis,BTech CSE,Advanced,ITIL Scrum Master,Business Analyst
+832,Docker CI/CD Data Structures,Engineering Open Source,BTech IT,Intermediate,CompTIA A+,Software Engineer
+833,Image Segmentation Detectron2 TensorFlow Object Detection,AI Research Computer Vision,MSc Data Science,Beginner,TensorFlow Developer,Computer Vision Engineer
+834,Tableau Databricks R Data Visualization,Business Intelligence,MCA,Advanced,Google Data Analytics,Data Analyst
+835,REST API Express.js Docker Python,Backend Systems,BSc Computer Science,Advanced,Oracle Java Azure Fundamentals,Backend Developer
+836,Transformers Vector Databases FastAPI LLMs,LLMs AI Products,MCA,Advanced,TensorFlow Developer,AI Engineer
+837,Pandas Scikit-learn NumPy Python,Data Science,BTech CSE,Beginner,Azure Fundamentals AWS CCP,Data Scientist
+838,Shader Programming Physics Engine C# Python,Game Development Interactive Media,BCA,Advanced,Google Play Academy C++ Institute,Game Developer
+839,Kubeflow Pandas Spark PyTorch,Deep Learning AI Systems,Diploma CS,Advanced,Azure ML AWS SA,ML Engineer
+840,OKRs Data Analysis JIRA Notion Google Play,User Research,BTech IT,Intermediate,PMP,Product Manager
+841,Roadmapping Data Analysis OKRs Scrum,Product Strategy Tech Leadership,MSc Data Science,Beginner,CSPO,Product Manager
+842,OpenAI API PyTorch RAG Python,AI Products Conversational AI,MSc Data Science,Intermediate,Google Cloud Associate AWS CCP,AI Engineer
+843,CI/CD Docker Prometheus Kubernetes Next.js,DevOps,BE AI,Intermediate,RedHat RHCSA Terraform Associate,Site Reliability Engineer
+844,BERT LLMs HuggingFace Text Classification,Linguistics,BTech CSE,Intermediate,TensorFlow Developer,NLP Engineer
+845,IDS/IPS Python Nmap,Threat Intelligence,MCA,Advanced,CISSP CompTIA CySA+,Cybersecurity Analyst
+846,iOS SQLite React Native Dart,Android,BE AI,Advanced,Flutter Certified AWS CCP,Mobile App Developer
+847,Linux Metasploit IDS/IPS Nmap,Network Security,Diploma CS,Advanced,CompTIA Security+ CompTIA CySA+,Cybersecurity Analyst
+848,Swift Android Studio Flutter Kotlin,UX iOS,BCA,Intermediate,AWS CCP,Mobile App Developer
+849,Shader Programming Unity Game Design,3D Design Simulation,BCA,Intermediate,Google Play Academy,Game Developer
+850,CSS AWS Docker GraphQL,Web Apps Cloud,BTech IT,Beginner,AWS CCP Oracle Java,Full Stack Developer
+851,Swift App Store Google Play React Native,Mobile Development,BTech CSE,Intermediate,Firebase,Mobile App Developer
+852,CUDA Pillow Python CNNs Prometheus,AI Research,Diploma CS,Advanced,Google Cloud ML,Computer Vision Engineer
+853,Lua Multiplayer Networking Unity Unreal Engine,Interactive Media,Diploma CS,Beginner,Google Play Academy Unreal Engine Cert,Game Developer
+854,Next.js MongoDB Redis,APIs Startups,BCA,Advanced,Meta Full Stack,Full Stack Developer
+855,OpenCV ONNX MediaPipe,Deep Learning,BTech CSE,Beginner,NVIDIA Deep Learning,Computer Vision Engineer
+856,Docker Node.js AWS Express.js,Web Apps,BCA,Advanced,Oracle Java MongoDB Associate,Full Stack Developer
+857,OpenAI API Transformers Generative AI LLMs,AI Products Conversational AI,MCA,Intermediate,Google Cloud Associate HuggingFace Certified,AI Engineer
+858,InVision Information Architecture Sketch Figma,Product Design,Diploma CS,Intermediate,Adobe XD Certified Figma Expert,UI/UX Designer
+859,Data Analysis BPMN Business Process,Data,BTech IT,Beginner,Tableau Desktop,Business Analyst
+860,SIEM Python OWASP Incident Response,Threat Intelligence Privacy,BTech CSE,Intermediate,CISSP,Cybersecurity Analyst
+861,Agile JIRA SQL Product Analytics,Product Strategy Agile,MSc Data Science,Beginner,AWS CCP Scrum Master,Product Manager
+862,Stakeholder Management Visio Agile BPMN,Strategy Process Improvement,BTech IT,Advanced,ITIL Tableau Desktop,Business Analyst
+863,GraphQL CSS REST API,User Experience JavaScript Ecosystem,BE AI,Advanced,Google UX Design,Frontend Developer
+864,Python Terraform CI/CD Grafana,Automation,BTech CSE,Beginner,RedHat RHCSA Kubernetes CKA,DevOps Engineer
+865,Web3.js NFT Solidity Cryptography,Web3,BTech CSE,Beginner,Hyperledger,Blockchain Developer
+866,Android Studio Kotlin Swift Xcode,Cross-platform Apps,BTech CSE,Intermediate,Apple iOS Developer Flutter Certified,Mobile App Developer
+867,Jest Redux Figma,UI Design JavaScript Ecosystem,BCA,Intermediate,Meta Frontend Azure Fundamentals,Frontend Developer
+868,NumPy TensorFlow Kubeflow,Deep Learning,MSc Data Science,Intermediate,Google Cloud ML TensorFlow Developer,ML Engineer
+869,HTML Next.js Node.js Redis,Cloud,BTech IT,Intermediate,AWS CCP MongoDB Associate,Full Stack Developer
+870,SIEM Metasploit OWASP Wireshark,Privacy Cybersecurity,MCA,Beginner,Cisco CCNA,Cybersecurity Analyst
+871,ArgoCD GitHub Actions Linux Python,CI/CD,BTech CSE,Beginner,RedHat RHCSA Terraform Associate,DevOps Engineer
+872,Python Git Unit Testing Linux,Software Development Open Source,BTech CSE,Advanced,CompTIA A+ Google Cloud Associate,Software Engineer
+873,Pillow CNNs Keras,Robotics,MCA,Advanced,NVIDIA Deep Learning,Computer Vision Engineer
+874,Data Structures Docker REST API Design Patterns YOLO,Software Development Engineering,BTech CSE,Intermediate,Google Cloud Associate AWS CCP,Software Engineer
+875,Webpack TypeScript JavaScript Tailwind CSS,Web Development JavaScript Ecosystem,BCA,Intermediate,Azure Fundamentals,Frontend Developer
+876,Spark Python Pandas TensorFlow,Deep Learning,MCA,Beginner,AWS SA,ML Engineer
+877,Physics Engine Blender OpenGL HLSL Webpack,Simulation,BTech CSE,Beginner,C++ Institute Unity Certified,Game Developer
+878,Shader Programming Python Unreal Engine HLSL Express.js,3D Design Game Development,BCA,Advanced,AWS GameTech,Game Developer
+879,Chaos Engineering Docker SLIs/SLOs Prometheus,Reliability Engineering,Diploma CS,Beginner,Google Cloud SRE Kubernetes CKA,Site Reliability Engineer
+880,AWS Docker Prometheus Terraform Pandas,CI/CD,MCA,Advanced,Kubernetes CKA,DevOps Engineer
+881,Smart Contracts Chainlink Solidity JavaScript Scrum,Blockchain,BCA,Intermediate,Solidity Developer Certified Blockchain Expert,Blockchain Developer
+882,Redux Vue.js ReactJS TypeScript,JavaScript Ecosystem User Experience,Diploma CS,Beginner,Azure Fundamentals,Frontend Developer
+883,App Store Dart React Native Xcode Spark,Mobile Development iOS,Diploma CS,Intermediate,AWS CCP Flutter Certified,Mobile App Developer
+884,Solidity Web3.js IPFS Python,Decentralization Cryptography,BTech CSE,Intermediate,Hyperledger Web3 Developer,Blockchain Developer
+885,Tableau Process Mapping Agile,Process Improvement Enterprise Systems,MSc Data Science,Beginner,ITIL,Business Analyst
+886,TypeScript HTML Express.js Next.js,APIs Full Stack Development,MCA,Advanced,Oracle Java Azure Fundamentals,Full Stack Developer
+887,CloudFormation Kubernetes CDN Google Cloud,Infrastructure Cloud Computing,MCA,Intermediate,AWS SA,Cloud Engineer
+888,InVision Usability Testing Information Architecture Accessibility,Product Design,BSc Computer Science,Advanced,HCI Certificate,UI/UX Designer
+889,Express.js Java Node.js Kafka,Microservices,BTech CSE,Intermediate,Spring Professional,Backend Developer
+890,NumPy Image Segmentation Keras Detectron2,Robotics,BE AI,Beginner,NVIDIA Deep Learning AWS CCP,Computer Vision Engineer
+891,Smart Contracts IPFS NFT Python,Web3 Decentralization,BTech IT,Advanced,Hyperledger Solidity Developer,Blockchain Developer
+892,Scrum Agile OKRs Confluence,Business Product Strategy,MSc Data Science,Advanced,AWS CCP,Product Manager
+893,Redis Python Java MongoDB,Databases,BTech CSE,Intermediate,Spring Professional MongoDB Associate,Backend Developer
+894,HuggingFace LLMs Transformers,AI,BE AI,Beginner,Google Cloud ML,NLP Engineer
+895,ETL PostgreSQL Python R Node.js,Reporting,MCA,Intermediate,Power BI Associate IBM Data Analyst,Data Analyst
+896,AWS SageMaker PyTorch Feature Engineering NumPy,AI Systems,Diploma CS,Advanced,Google Cloud ML AWS SageMaker,ML Engineer
+897,Requirements Gathering Stakeholder Management Business Process Confluence,Process Improvement,BTech IT,Intermediate,PMI-PBA CBAP,Business Analyst
+898,Agile Requirements Gathering Tableau,Data Strategy,MCA,Intermediate,Tableau Desktop,Business Analyst
+899,CNNs Keras ONNX Image Segmentation,AI Research,MCA,Intermediate,TensorFlow Developer,Computer Vision Engineer
+900,PostgreSQL Express.js CSS MongoDB,Web Apps,BCA,Advanced,Meta Full Stack,Full Stack Developer
+901,Business Process Power BI JIRA,Business Analysis Data,BTech IT,Advanced,CBAP,Business Analyst
+902,Vue.js CSS Jest JavaScript,UI Design,Diploma CS,Beginner,JavaScript Algorithms,Frontend Developer
+903,IAM Docker CDN Azure,Cloud Computing DevOps,BE AI,Advanced,Terraform Associate AWS SA,Cloud Engineer
+904,Lambda AWS Terraform,Networking,BTech CSE,Intermediate,AWS SA,Cloud Engineer
+905,PostgreSQL Kafka MongoDB,Backend Systems Distributed Systems,MCA,Advanced,Oracle Java Azure Fundamentals,Backend Developer
+906,Security Kubernetes CloudFormation S3,Scalability Networking,MCA,Intermediate,Azure Fundamentals,Cloud Engineer
+907,Prometheus Bash AWS Python,Reliability Engineering Observability,BSc Computer Science,Intermediate,Kubernetes CKA,Site Reliability Engineer
+908,Requirements Gathering Excel Stakeholder Management JIRA,Business Analysis,MCA,Intermediate,Scrum Master ITIL,Business Analyst
+909,Design Systems Prototyping Canva InVision,User Experience Product Design,BCA,Beginner,Figma Expert,UI/UX Designer
+910,Object Detection NumPy CUDA Image Segmentation,Deep Learning,MSc Data Science,Intermediate,AWS CCP,Computer Vision Engineer
+911,NLTK Generative AI Sentiment Analysis LLMs,Text Analytics Conversational AI,BTech CSE,Intermediate,Google Cloud ML,NLP Engineer
+912,Transformers HuggingFace FastAPI,LLMs,MSc Data Science,Intermediate,TensorFlow Developer Google Cloud Associate,AI Engineer
+913,Terraform Grafana Incident Management Chaos Engineering,Automation,MCA,Beginner,Kubernetes CKA,Site Reliability Engineer
+914,CUDA Object Detection Python NumPy Python,Image Processing Deep Learning,BE AI,Beginner,TensorFlow Developer,Computer Vision Engineer
+915,Prometheus Incident Management Grafana AWS,Cloud Operations,BTech CSE,Intermediate,Kubernetes CKA RedHat RHCSA,Site Reliability Engineer
+916,Pandas Scikit-learn NumPy TensorFlow,Model Deployment,BE AI,Advanced,TensorFlow Developer AWS SageMaker,ML Engineer
+917,Node.js CSS HTML AWS,Cloud Web Apps,BCA,Beginner,MongoDB Associate Meta Full Stack,Full Stack Developer
+918,Game Design Python Unity,3D Design Simulation,BTech CSE,Advanced,Google Play Academy,Game Developer
+919,Angular Tailwind CSS ReactJS Vue.js,JavaScript Ecosystem Web Performance,BTech CSE,Advanced,JavaScript Algorithms,Frontend Developer
+920,Data Analysis Tableau Visio,Enterprise Systems Process Improvement,BE AI,Intermediate,ITIL PMI-PBA,Business Analyst
+921,Pandas NumPy R Jupyter,Analytics Statistics,BE AI,Advanced,TensorFlow Developer Azure Fundamentals,Data Scientist
+922,Docker PyTorch MLflow Scikit-learn Nmap,AI Systems Model Deployment,BCA,Beginner,AWS SageMaker,ML Engineer
+923,Ethereum Solidity DeFi,Decentralization,BTech CSE,Intermediate,Hyperledger Solidity Developer,Blockchain Developer
+924,REST API PostgreSQL GraphQL,Distributed Systems,MCA,Beginner,AWS CCP MongoDB Associate,Backend Developer
+925,Kotlin Google Play Push Notifications,iOS,MCA,Advanced,Apple iOS Developer,Mobile App Developer
+926,Azure CloudFormation IAM Security,Networking DevOps,BTech CSE,Advanced,Terraform Associate Azure Fundamentals,Cloud Engineer
+927,AWS Linux Observability Terraform,Reliability Engineering Observability,MCA,Beginner,Google Cloud SRE Kubernetes CKA,Site Reliability Engineer
+928,HuggingFace NER Generative AI PyTorch,AI,Diploma CS,Beginner,HuggingFace Certified,NLP Engineer
+929,Google Analytics Excel Databricks PostgreSQL NumPy,Data Analytics,MSc Data Science,Advanced,Power BI Associate AWS CCP,Data Analyst
+930,Statistics Excel Databricks Google Analytics,Reporting,BTech IT,Beginner,AWS CCP,Data Analyst
+931,System Design Microservices Algorithms REST API ETL,Software Development,BSc Computer Science,Beginner,RedHat RHCSA,Software Engineer
+932,CI/CD Grafana Bash Docker,DevOps,BTech IT,Beginner,AWS SA Google Cloud DevOps,DevOps Engineer
+933,REST API Firebase SQLite Google Play,Android,BCA,Beginner,Firebase AWS CCP,Mobile App Developer
+934,Spark Kafka TensorFlow FastAPI,AI Systems,MSc Data Science,Beginner,TensorFlow Developer,ML Engineer
+935,IAM Linux Kubernetes,DevOps,MCA,Intermediate,AWS CCP Azure Fundamentals,Cloud Engineer
+936,HuggingFace PyTorch TensorFlow LLMs,Conversational AI,BE AI,Beginner,AWS CCP,AI Engineer
+937,Confluence Notion Roadmapping JIRA,Product Strategy Business,MCA,Beginner,Google PM Certificate Scrum Master,Product Manager
+938,Wireframing CSS HTML Adobe XD,Human-Computer Interaction User Experience,Diploma CS,Advanced,Google UX Design Figma Expert,UI/UX Designer
+939,Truffle Ethereum Python Hardhat,Decentralization,BTech IT,Intermediate,Ethereum Developer,Blockchain Developer
+940,TensorFlow NumPy PyTorch Statistics,Analytics AI,BCA,Intermediate,AWS CCP,Data Scientist
+941,Data Structures Linux Python CI/CD,Problem Solving,BTech CSE,Advanced,CompTIA A+ Oracle Java,Software Engineer
+942,REST API MongoDB TypeScript,Startups,BTech IT,Advanced,Oracle Java MongoDB Associate,Full Stack Developer
+943,Statistics Google Analytics Spark R Requirements Gathering,Business Intelligence Reporting,BCA,Advanced,Tableau Desktop Google Data Analytics,Data Analyst
+944,Google Cloud CloudFormation CDN Docker Web3.js,Networking,BTech IT,Beginner,AWS SA Google Cloud Associate,Cloud Engineer
+945,Prometheus Kubernetes Terraform Python,Cloud Operations,MCA,Intermediate,AWS SA,Site Reliability Engineer
+946,Networking Azure Lambda S3,Networking,BTech CSE,Advanced,Google Cloud Associate AWS SA,Cloud Engineer
+947,AWS SageMaker Kafka Kubeflow,Model Deployment Machine Learning,MCA,Advanced,Azure ML,ML Engineer
+948,Docker Networking Azure Lambda,Networking,BE AI,Intermediate,AWS SA,Cloud Engineer
+949,MLflow Feature Engineering Kafka AWS SageMaker,Deep Learning Model Deployment,BE AI,Intermediate,TensorFlow Developer,ML Engineer
+950,CUDA Object Detection TensorFlow ONNX C++,Computer Vision Robotics,BTech IT,Intermediate,TensorFlow Developer PyTorch Certified,Computer Vision Engineer
+951,Helm Prometheus GitHub Actions,Automation,BSc Computer Science,Intermediate,AWS SA Kubernetes CKA,DevOps Engineer
+952,Physics Engine AI Pathfinding Multiplayer Networking,3D Design Game Development,BTech IT,Beginner,Unity Certified C++ Institute,Game Developer
+953,REST API ReactJS Figma Redux,JavaScript Ecosystem Web Performance,MCA,Intermediate,AWS CCP Meta Frontend,Frontend Developer
+954,Microservices REST API FastAPI MySQL,Distributed Systems Databases,BCA,Intermediate,Azure Fundamentals,Backend Developer
+955,Keras Pillow Detectron2 TensorFlow,Computer Vision AI Research,MSc Data Science,Advanced,NVIDIA Deep Learning Google Cloud ML,Computer Vision Engineer
+956,Ansible Helm Linux Python,Cloud Infrastructure,BTech IT,Advanced,Google Cloud DevOps Kubernetes CKA,DevOps Engineer
+957,Keras PyTorch Image Segmentation,Computer Vision,BTech IT,Advanced,AWS CCP NVIDIA Deep Learning,Computer Vision Engineer
+958,DeFi Hardhat Rust Web3.js,DeFi,BTech CSE,Intermediate,Web3 Developer,Blockchain Developer
+959,PostgreSQL Redis MySQL Microservices,Distributed Systems,BTech IT,Beginner,MongoDB Associate,Backend Developer
+960,Data Structures C++ Python Algorithms,Problem Solving,BSc Computer Science,Intermediate,RedHat RHCSA,Software Engineer
+961,Blender Lua Game Design Multiplayer Networking SLIs/SLOs,Interactive Media 3D Design,BTech IT,Intermediate,Unity Certified Unreal Engine Cert,Game Developer
+962,Power BI Spark SQL Seaborn,Analytics,Diploma CS,Beginner,Google Cloud Associate,Data Scientist
+963,Bash Incident Management Docker AWS,Cloud Operations,Diploma CS,Advanced,AWS SA Kubernetes CKA,Site Reliability Engineer
+964,Unit Testing Python System Design Git,Open Source,MCA,Advanced,AWS CCP RedHat RHCSA,Software Engineer
+965,HTML MongoDB Next.js Express.js,Startups APIs,BSc Computer Science,Advanced,Oracle Java MongoDB Associate,Full Stack Developer
+966,Data Visualization SQL PostgreSQL,Insights,MCA,Advanced,Tableau Desktop,Data Analyst
+967,Sketch Figma InVision,Design Product Design,BE AI,Intermediate,Interaction Design Adobe XD Certified,UI/UX Designer
+968,HTML Next.js JavaScript TypeScript,JavaScript Ecosystem User Experience,BCA,Intermediate,Google UX Design,Frontend Developer
+969,IDS/IPS OWASP Penetration Testing Nmap,Threat Intelligence,BSc Computer Science,Beginner,CISSP,Cybersecurity Analyst
+970,Python ONNX CNNs Image Segmentation Seaborn,AI Research,BTech CSE,Beginner,PyTorch Certified,Computer Vision Engineer
+971,DeFi Smart Contracts Hardhat Ethereum,Decentralization Web3,BCA,Advanced,Web3 Developer,Blockchain Developer
+972,Data Analysis Visio Excel Requirements Gathering Model Deployment,Data,BSc Computer Science,Advanced,CBAP,Business Analyst
+973,IPFS Web3.js Chainlink Hardhat,Cryptography Blockchain,BTech CSE,Intermediate,Certified Blockchain Expert,Blockchain Developer
+974,REST API Tailwind CSS ReactJS,Web Performance Web Development,BTech IT,Advanced,JavaScript Algorithms Azure Fundamentals,Frontend Developer
+975,Xcode Kotlin Android iOS,iOS Android,BE AI,Intermediate,Flutter Certified Google Android Developer,Mobile App Developer
+976,Matplotlib Pandas PyTorch Seaborn,Machine Learning Statistics,MSc Data Science,Advanced,IBM Data Science,Data Scientist
+977,Tableau Python Power BI Data Visualization,Data Analytics Insights,BCA,Intermediate,Power BI Associate,Data Analyst
+978,Agile Confluence Market Research SQL,Product Strategy Agile,BTech IT,Beginner,PMP Scrum Master,Product Manager
+979,Angular Webpack GraphQL,UI Design Web Development,BTech CSE,Beginner,Google UX Design Azure Fundamentals,Frontend Developer
+980,TypeScript Jest Tailwind CSS ReactJS,Web Performance,BCA,Intermediate,Google UX Design Meta Frontend,Frontend Developer
+981,Python Docker Feature Engineering AWS SageMaker,MLOps,BTech CSE,Advanced,TensorFlow Developer Azure ML,ML Engineer
+982,R Pandas Power BI NumPy Penetration Testing,Data Science,MSc Data Science,Advanced,Azure Fundamentals Google Cloud Associate,Data Scientist
+983,TensorFlow Power BI Jupyter,Statistics,MCA,Beginner,AWS CCP IBM Data Science,Data Scientist
+984,Network Security Python Incident Response,Cybersecurity,BCA,Beginner,CompTIA Security+,Cybersecurity Analyst
+985,Pandas R PostgreSQL Excel,Insights,MCA,Beginner,Google Data Analytics IBM Data Analyst,Data Analyst
+986,Kubeflow Feature Engineering MLflow PyTorch,AI Systems Machine Learning,MSc Data Science,Intermediate,AWS SageMaker,ML Engineer
+987,Xcode Android Studio REST API Flutter Ansible,iOS,BCA,Advanced,Apple iOS Developer,Mobile App Developer
+988,NLTK Python HuggingFace,Conversational AI Natural Language Processing,MSc Data Science,Advanced,AWS CCP TensorFlow Developer,NLP Engineer
+989,C++ Unity Blender,Simulation Game Development,BTech CSE,Advanced,Unity Certified,Game Developer
+990,BPMN Stakeholder Management Agile Use Cases,Enterprise Systems Strategy,MCA,Advanced,Tableau Desktop Scrum Master,Business Analyst
+991,RAG FastAPI LLMs HuggingFace,LLMs AI Research,BE AI,Intermediate,AWS CCP Google Cloud Associate,AI Engineer
+992,Blender 3D Modeling OpenGL,3D Design Graphics,BCA,Advanced,Unreal Engine Cert AWS GameTech,Game Developer
+993,TensorFlow FastAPI LLMs RAG,AI Products AI Research,MCA,Beginner,AWS CCP,AI Engineer
+994,CSS Jest Figma Webpack Security,Web Performance User Experience,BCA,Beginner,Google UX Design Azure Fundamentals,Frontend Developer
+995,Git CSS HTML GraphQL OpenGL,Web Apps,BSc Computer Science,Beginner,Meta Full Stack Azure Fundamentals,Full Stack Developer
+996,AWS Express.js Next.js GraphQL,Startups Web Apps,BSc Computer Science,Beginner,Azure Fundamentals,Full Stack Developer
+997,C++ AI Pathfinding Python C#,Simulation Game Development,BTech CSE,Beginner,Unity Certified,Game Developer
+998,Power BI Python PyTorch Pandas,Data Science Research,MSc Data Science,Beginner,IBM Data Science Google Cloud Associate,Data Scientist
+999,FastAPI Transformers PyTorch HuggingFace,Generative AI LLMs,BCA,Beginner,TensorFlow Developer HuggingFace Certified,AI Engineer
+1000,Stakeholder Management Business Process Requirements Gathering Confluence,Process Improvement,BTech IT,Beginner,ITIL,Business Analyst

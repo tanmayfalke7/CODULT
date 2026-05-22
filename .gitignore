@@ -1,0 +1,123 @@
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# =========================
+# FASTAPI
+# =========================
+*.log
+logs/
+
+# =========================
+# ENV FILES
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# DATABASE
+# =========================
+*.db
+*.sqlite3
+
+# =========================
+# MODEL FILES
+# =========================
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# Keep sample models if needed
+!sample_model.pkl
+
+# =========================
+# JUPYTER
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# VSCODE / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# NODE / FRONTEND
+# =========================
+node_modules/
+.next/
+dist/
+build/
+
+# React logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# UPLOADS
+# =========================
+uploads/
+temp/
+tmp/
+
+# =========================
+# AWS / CLOUD
+# =========================
+.aws/
+.vercel/
+
+# =========================
+# TESTS / CACHE
+# =========================
+.pytest_cache/
+.cache/
+
+# =========================
+# SECRETS
+# =========================
+secrets/
+credentials.json
+service-account.json
+
+# =========================
+# AI EMBEDDINGS CACHE
+# =========================
+faiss_index/
+vector_store/
+chroma_db/
+
+# =========================
+# FRONTEND ENV
+# =========================
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# =========================
+# BACKEND ENV
+# =========================
+backend/.env
+backend/.env.local
